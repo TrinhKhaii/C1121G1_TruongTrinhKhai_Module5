@@ -1,0 +1,8 @@
+<h2>Color picker app</h2>
+<div>
+  <label>Enter font size (px):</label>
+  <input type="range" min="1" max="10" value="1" [(ngModel)]="colorIndex"  (mousemove)="changeColor()">
+</div>
+
+
+<h1 [style.color]="colorStr">HIHI</h1>
