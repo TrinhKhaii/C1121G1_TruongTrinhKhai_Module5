@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Customer</title>
+    <!-- Font Awesome -->
+    <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.css"
+            rel="stylesheet"
+    />
+</head>
+<body>
+<div id="header"></div>
+
+<div class="p-5"></div>
+<div class="text-center">
+    <p class="lead display-5">Chỉnh sửa thông tin khách hàng</p>
+</div>
+
+<div class=" col-4 mx-auto">
+    <form>
+        <div class="modal-body">
+            <div class="form-group mb-4">
+                <div class="form-outline">
+                    <input type="text" id="customerCode" class="form-control" value="KH-0001"/>
+                    <label class="form-label" for="customerCode">Mã khách hàng<span
+                            class="text-danger">(*)</span></label>
+                </div>
+                <small class="text-danger"></small>
+            </div>
+            <div class="form-group mb-4">
+                <div class="form-outline">
+                    <input type="text" id="customerName" class="form-control" value="Tâm bê đê"/>
+                    <label class="form-label" for="customerName">Họ Tên<span class="text-danger">(*)</span></label>
+                </div>
+                <small class="text-danger"></small>
+            </div>
+
+            <label class="form-label" for="gender">Giới tính</label>
+            <select id="gender" class="form-control mb-4">
+                <option>Nam</option>
+                <option selected>Nữ</option>
+                <option>Khác</option>
+            </select>
+
+            <div class="form-group mb-4">
+                <div class="form-outline">
+                    <input type="date" id="dayOfBirth" class="form-control" value="21/12/2001"/>
+                    <label class="form-label" for="dayOfBirth">Ngày sinh<span class="text-danger">(*)</span></label>
+                </div>
+                <small class="text-danger"></small>
+
+            </div>
+            <div class="form-group mb-4">
+                <div class="form-outline">
+                    <input type="text" id="idCard" class="form-control" value="48201123321"/>
+                    <label class="form-label" for="idCard">Số CMND<span class="text-danger">(*)</span></label>
+                </div>
+                <small class="text-danger"></small>
+            </div>
+            <div class="form-group mb-4">
+                <div class="form-outline">
+                    <input type="text" id="phoneNumber" class="form-control" value="0901960777"/>
+                    <label class="form-label" for="phoneNumber">Số điện thoại<span
+                            class="text-danger">(*)</span></label>
+                </div>
+                <small class="text-danger"></small>
+            </div>
+            <div class="form-group mb-4">
+                <div class="form-outline">
+                    <input type="text" id="email" class="form-control" value="truongtrinhkhaidng@gmail.com"/>
+                    <label class="form-label" for="email">Email</label>
+                </div>
+                <small class="text-danger"></small>
+            </div>
+            <div class="form-group mb-4">
+                <div class="form-outline">
+                    <input type="text" id="address" class="form-control" value="21 Nguyễn Khang"/>
+                    <label class="form-label" for="address">Địa chỉ</label>
+                </div>
+                <small class="text-danger"></small>
+            </div>
+
+            <label class="form-label" for="customerType">Loại</label>
+            <select id="customerType" class="form-control mb-4">
+                <option selected>Diamond</option>
+                <option>Silver</option>
+                <option>Member</option>
+            </select>
+
+        </div>
+        <div class="modal-footer">
+            <!--            <a th:href="@{/customer}" type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Đóng</a>-->
+            <input type="submit" class="btn btn-success" value="Thêm mới"/>
+        </div>
+    </form>
+</div>
+
+<div id="footer"></div>
+</body>
+<!-- MDB -->
+<script
+        type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"
+></script>
+<!-- AJAX -->
+<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>-->
+<script src="static/js/jquery-3.6.0.min.js"></script>
+<!-- JQUERY -->
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<!--  Modal -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+    $(function(){
+        $("#header").load("../templates/header.html");
+        $("#footer").load("../templates/footer.html");
+    });
+</script>
+</html>

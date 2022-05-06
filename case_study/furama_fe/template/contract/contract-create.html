@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contract</title>
+    <!-- Font Awesome -->
+    <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.css"
+            rel="stylesheet"
+    />
+</head>
+<body>
+<div id="header"></div>
+
+<div class="p-5"></div>
+<div class="text-center">
+    <p class="lead display-5">Thêm mới hợp đồng</p>
+</div>
+<div class="p-2"></div>
+
+<div class=" col-4 mx-auto">
+    <form>
+        <div class="modal-header">
+            <h5 class="modal-title">Thêm mới hợp đồng</h5>
+        </div>
+        <div class="modal-body">
+            <div class="form-group mb-4">
+                <div class="form-outline">
+                    <input type="text" id="contractCode" class="form-control"/>
+                    <label class="form-label" for="contractCode">Mã hợp đồng<span class="text-danger">(*)</span></label>
+                </div>
+                <small class="text-danger"></small>
+            </div>
+
+            <div class="form-group mb-4">
+                <div class="form-outline">
+                    <input type="date" id="contractStartDate" class="form-control"/>
+                    <label class="form-label" for="contractStartDate">Ngày bắt đầu<span class="text-danger">(*)</span></label>
+                </div>
+                <small class="text-danger"></small>
+            </div>
+            <div class="form-group mb-4">
+                <div class="form-outline">
+                    <input type="date" id="contractEndDate" class="form-control"/>
+                    <label class="form-label" for="contractEndDate">Ngày kết thúc<span class="text-danger">(*)</span></label>
+                </div>
+                <small class="text-danger"></small>
+            </div>
+
+            <div class="form-group mb-4">
+                <div class="form-outline">
+                    <input type="text" id="contractDeposit" class="form-control"/>
+                    <label class="form-label" for="contractDeposit">Tiền đặt cọc<span class="text-danger">(*)</span></label>
+                </div>
+                <small class="text-danger"></small>
+            </div>
+
+            <label class="form-label" for="employee">Nhân viên</label>
+            <select id="employee" class="form-control mb-4">
+                <option>Tâm bê đê</option>
+                <option>Tâm gay</option>
+                <option>Tâm bóng</option>
+            </select>
+
+            <label class="form-label" for="customer">Khách hàng</label>
+            <select id="customer" class="form-control mb-4">
+                <option>Khải đẹp trai</option>
+                <option>Tâm đẹp gái</option>
+                <option>Ngọc bê đê</option>
+            </select>
+
+            <label class="form-label" for="service">Dịch vụ</label>
+            <select id="service" class="form-control mb-4">
+                <option>Villa 1</option>
+                <option>Villa 2</option>
+                <option>House 1</option>
+                <option>Room 1</option>
+            </select>
+
+        </div>
+        <div class="modal-footer">
+            <input type="submit" class="btn btn-primary" value="Thêm mới"/>
+        </div>
+    </form>
+</div>
+
+<div id="footer"></div>
+</body>
+<!-- MDB -->
+<script
+        type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"
+></script>
+<!-- AJAX -->
+<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>-->
+<script src="static/js/jquery-3.6.0.min.js"></script>
+<!-- JQUERY -->
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<!--  Modal -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+    $(function(){
+        $("#header").load("../templates/header.html");
+        $("#footer").load("../templates/footer.html");
+    });
+</script>
+</html>
