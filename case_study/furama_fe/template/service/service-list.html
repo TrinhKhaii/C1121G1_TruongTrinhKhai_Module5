@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Menu</title>
+    <title>Service List</title>
     <!-- Font Awesome -->
     <link
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -19,6 +19,20 @@
 </head>
 <body>
 <div id="header"></div>
+
+<div class="p-5"></div>
+<div class="text-center">
+    <p class="lead display-5">Danh sách dịch vụ</p>
+    <button type="button" class="btn btn-outline-info" data-mdb-ripple-color="dark" onclick="window.location.href='create-villa.html'">
+        Thêm mới Villa
+    </button>
+    <button type="button" class="btn btn-outline-warning" data-mdb-ripple-color="dark" onclick="window.location.href='create-house.html'">
+        Thêm mới House
+    </button>
+    <button type="button" class="btn btn-outline-success" data-mdb-ripple-color="dark" onclick="window.location.href='create-room.html'">
+        Thêm mới Room
+    </button>
+</div>
 
 <div class="container col-9">
     <div class="row row-cols-2 row-cols-lg-3 g-2 g-lg-3 text-center">
@@ -34,7 +48,10 @@
                     <div class="card-body">
                         <h5 class="card-title">Villa 1 nè</h5>
                         <p class="card-text">Villa 1 là 1 trong những villa víp nhất tại đây.</p>
-                        <a href="#!" class="btn btn-primary">Xem thêm</a>
+                        <button type="button" class="btn btn-outline-info" data-mdb-ripple-color="dark"
+                                onclick="window.location.href='villa-detail.html'">
+                            Xem thêm
+                        </button>
                     </div>
                 </div>
             </div>
@@ -51,7 +68,10 @@
                     <div class="card-body">
                         <h5 class="card-title">Villa 2 nè</h5>
                         <p class="card-text">Villa 2 là 1 trong những villa víp nhất tại đây.</p>
-                        <a href="#!" class="btn btn-primary">Xem thêm</a>
+                        <button type="button" class="btn btn-outline-info" data-mdb-ripple-color="dark"
+                                onclick="window.location.href='villa-detail.html'">
+                            Xem thêm
+                        </button>
                     </div>
                 </div>
             </div>
@@ -68,7 +88,10 @@
                     <div class="card-body">
                         <h5 class="card-title">Villa 3</h5>
                         <p class="card-text">Villa 3 là 1 trong những villa víp nhất tại đây.</p>
-                        <a href="#!" class="btn btn-primary">Xem thêm</a>
+                        <button type="button" class="btn btn-outline-info" data-mdb-ripple-color="dark"
+                                onclick="window.location.href='villa-detail.html'">
+                            Xem thêm
+                        </button>
                     </div>
                 </div>
             </div>
@@ -85,7 +108,10 @@
                     <div class="card-body">
                         <h5 class="card-title">Room 1 nè</h5>
                         <p class="card-text">Room 1 chỉ dành riêng cho chủ tịch hoặc tổng thống.</p>
-                        <a href="#!" class="btn btn-primary">Xem thêm</a>
+                        <button type="button" class="btn btn-outline-warning" data-mdb-ripple-color="dark"
+                                onclick="window.location.href='room-detail.html'">
+                            Xem thêm
+                        </button>
                     </div>
                 </div>
             </div>
@@ -102,7 +128,10 @@
                     <div class="card-body">
                         <h5 class="card-title">Room 2</h5>
                         <p class="card-text">Room 2 đầy đủ tiện nghi, không thiếu 1 cái gì.</p>
-                        <a href="#!" class="btn btn-primary">Xem thêm</a>
+                        <button type="button" class="btn btn-outline-warning" data-mdb-ripple-color="dark"
+                                onclick="window.location.href='room-detail.html'">
+                            Xem thêm
+                        </button>
                     </div>
                 </div>
             </div>
@@ -119,7 +148,10 @@
                     <div class="card-body">
                         <h5 class="card-title">House 1</h5>
                         <p class="card-text">Vị trí ngã 3 thuận lợi rất dễ đón Xpander vào nhà.</p>
-                        <a href="#!" class="btn btn-primary">Button</a>
+                        <button type="button" class="btn btn-outline-success" data-mdb-ripple-color="dark"
+                                onclick="window.location.href='room-detail.html'">
+                            Xem thêm
+                        </button>
                     </div>
                 </div>
             </div>
@@ -128,6 +160,8 @@
 </div>
 
 <div id="footer"></div>
+
+
 </body>
 <!-- MDB -->
 <script
@@ -144,8 +178,8 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <script>
     $(function(){
-        $("#header").load("header.html");
-        $("#footer").load("footer.html");
+        $("#header").load("../templates/header.html");
+        $("#footer").load("../templates/footer.html");
     });
 </script>
 </html>
