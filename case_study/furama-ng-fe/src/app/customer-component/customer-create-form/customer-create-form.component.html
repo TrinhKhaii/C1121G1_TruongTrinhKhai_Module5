@@ -1,0 +1,81 @@
+<div class="p-5"></div>
+<div class="text-center">
+  <p class="lead display-5">Thêm mới khách hàng</p>
+</div>
+<div class="p-2"></div>
+
+<div class=" col-4 mx-auto">
+  <form method="post" >
+<!--    <div class="modal-header">-->
+<!--      <h5 class="modal-title">Thêm mới khách hàng</h5>-->
+<!--    </div>-->
+    <div class="modal-body">
+      <div class="form-group mb-4">
+        <div class="form-outline">
+          <input type="text" id="customerCode" class="form-control">
+          <label class="form-label" for="customerCode">Mã khách hàng<span class="text-danger">(*)</span></label>
+        </div>
+        <small class="text-danger"></small>
+      </div>
+      <div class="form-group mb-4">
+        <div class="form-outline">
+          <input type="text" id="customerName" class="form-control">
+          <label class="form-label" for="customerName">Họ Tên<span class="text-danger">(*)</span></label>
+        </div>
+        <small class="text-danger"></small>
+      </div>
+
+      <label class="form-label" for="gender">Giới tính</label>
+      <select  id="gender" class="form-control mb-4">
+        <option ></option>
+      </select>
+
+      <div class="form-group mb-4">
+        <div class="form-outline">
+          <input type="date" id="dayOfBirth" class="form-control">
+          <label class="form-label" for="dayOfBirth">Ngày sinh<span class="text-danger">(*)</span></label>
+        </div>
+        <small class="text-danger"></small>
+
+      </div>
+      <div class="form-group mb-4">
+        <div class="form-outline">
+          <input type="text" id="idCard" class="form-control" >
+          <label class="form-label" for="idCard">Số CMND<span class="text-danger">(*)</span></label>
+        </div>
+        <small class="text-danger"></small>
+      </div>
+      <div class="form-group mb-4">
+        <div class="form-outline">
+          <input type="text" id="phoneNumber" class="form-control">
+          <label class="form-label" for="phoneNumber">Số điện thoại<span class="text-danger">(*)</span></label>
+        </div>
+        <small class="text-danger"></small>
+      </div>
+      <div class="form-group mb-4">
+        <div class="form-outline">
+          <input type="text" id="email" class="form-control">
+          <label class="form-label" for="email">Email</label>
+        </div>
+        <small class="text-danger"></small>
+      </div>
+      <div class="form-group mb-4">
+        <div class="form-outline">
+          <input type="text" id="address" class="form-control">
+          <label class="form-label" for="address">Địa chỉ</label>
+        </div>
+        <small class="text-danger"></small>
+      </div>
+
+      <label class="form-label" for="customerType">Loại</label>
+      <select id="customerType" class="form-control mb-4">
+        <option></option>
+      </select>
+
+    </div>
+    <div class="modal-footer">
+      <!--            <a th:href="@{/customer}" type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Đóng</a>-->
+      <input type="submit" class="btn btn-primary" value="Thêm mới">
+    </div>
+  </form>
+</div>

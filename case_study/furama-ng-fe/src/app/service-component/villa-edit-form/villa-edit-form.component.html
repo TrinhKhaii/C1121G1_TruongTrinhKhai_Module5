@@ -1,0 +1,125 @@
+<div class="p-5"></div>
+<div class="text-center">
+  <p class="lead display-5">Thông tin chi tiết</p>
+</div>
+
+<div class=" col-4 mx-auto" >
+  <form method="post">
+    <!--        <div class="modal-header">-->
+    <!--            <h5 class="modal-title">Thêm mới villa</h5>-->
+    <!--        </div>-->
+    <div class="modal-body">
+
+      <div class="form-group mb-4" id="serviceCode">
+        <div class="form-outline">
+          <input type="text" class="form-control" value="DV-001">
+          <label class="form-label" for="serviceCode">Mã dịch vụ<span class="text-danger">(*)</span></label>
+        </div>
+        <small class="text-danger"></small>
+      </div>
+
+      <div class="form-group mb-4" id="serviceName">
+        <div class="form-outline">
+          <input type="text"  class="form-control" value="Villa 1">
+          <label class="form-label" for="serviceName">Tên dịch vụ<span class="text-danger">(*)</span></label>
+        </div>
+        <small class="text-danger"></small>
+      </div>
+
+      <div class="form-group mb-4" id="serviceArea">
+        <div class="form-outline">
+          <input type="text"  class="form-control" value="10000">
+          <label class="form-label" for="serviceArea">Diện tích sử dụng<span class="text-danger">(*)</span></label>
+        </div>
+        <small class="text-danger"></small>
+      </div>
+
+      <div class="form-group mb-4" id="serviceCost">
+        <div class="form-outline">
+          <input type="text"  class="form-control" value="400000">
+          <label class="form-label" for="serviceCost">Chi phí thuê<span class="text-danger">(*)</span></label>
+        </div>
+        <small class="text-danger"></small>
+      </div>
+
+      <div class="form-group mb-4" id="serviceMaxPeople">
+        <div class="form-outline">
+          <input type="text"  class="form-control" value="4">
+          <label class="form-label" for="serviceMaxPeople">Số lượng người tối đa<span class="text-danger">(*)</span></label>
+        </div>
+        <small class="text-danger"></small>
+      </div>
+
+      <div id="standardRoom">
+        <label class="form-label" for="standardRoom">Tiêu chuẩn phòng<span class="text-danger">(*)</span></label>
+        <select class="form-control mb-4">
+          <option selected>Diamond</option>
+          <option>Diamond</option>
+          <option>Diamond</option>
+        </select>
+      </div>
+
+
+      <div class="form-group mb-4" id="descritionOtherConvenience">
+        <div class="form-outline">
+          <input type="text"  class="form-control" value="Tâm baby">
+          <label class="form-label" for="descritionOtherConvenience">Mô tả tiện nghi khác<span class="text-danger">(*)</span></label>
+        </div>
+        <small class="text-danger"></small>
+      </div>
+
+      <div class="form-group mb-4" id="poolArea">
+        <div class="form-outline">
+          <input type="text"  class="form-control" value="50">
+          <label class="form-label" for="poolArea">Diện tích hồ bơi<span class="text-danger">(*)</span></label>
+        </div>
+        <small class="text-danger"></small>
+      </div>
+
+      <div class="form-group mb-4" id="numberOdFloors">
+        <div class="form-outline">
+          <input type="text"  class="form-control" value="3">
+          <label class="form-label" for="numberOdFloors">Số tầng<span class="text-danger">(*)</span></label>
+        </div>
+        <small class="text-danger"></small>
+      </div>
+
+      <div id="rentType">
+        <label class="form-label" for="rentType">Kiểu thuê<span class="text-danger">(*)</span></label>
+        <select class="form-control mb-4">
+          <option selected>Year</option>
+          <option>Month</option>
+          <option>Day</option>
+          <option>Hour</option>
+        </select>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-outline-danger" data-mdb-ripple-color="dark" data-mdb-toggle="modal"
+              data-mdb-target="#deleteModal">Xóa</button>
+      <button type="button" class="btn btn-outline-warning" data-mdb-ripple-color="dark">Cập nhật</button>
+    </div>
+  </form>
+</div>
+
+<!-- Delete Modal -->
+<div class="modal fade" id="deleteModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <form>
+        <input type="hidden" name="idDelete" id="idDelete">
+        <div class="modal-header">
+          <h5 class="modal-title">Xác nhận xóa</h5>
+          <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Bạn chắc chắn muốn xóa dịch vụ <span class="text-danger" id="deleteName">Villa 1</span> ?</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal" >Hủy</button>
+          <input type="button" class="btn btn-danger" id="delete_btn" value="Đồng ý">
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

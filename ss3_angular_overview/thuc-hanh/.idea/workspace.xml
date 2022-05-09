@@ -2,6 +2,90 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cd0d62f-2cf5-4469-b17e-3b81dbd60e71" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/article.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/article/article.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/article/article.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/article/article.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/article/article.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/footer/footer.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/footer/footer.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/footer/footer.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/footer/footer.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/like/like.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/like/like.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/like/like.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/like/like.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/navbar/navbar.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/navbar/navbar.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/navbar/navbar.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/navbar/navbar.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/name-card/name-card.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/name-card/name-card.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/name-card/name-card.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/name-card/name-card.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/progress-bar/progress-bar.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/progress-bar/progress-bar.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/progress-bar/progress-bar.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/progress-bar/progress-bar.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/assets/angular.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/tsconfig.spec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bai-tap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bai-tap/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -48,6 +132,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -86,6 +171,7 @@
       <option name="presentableId" value="Default" />
       <updated>1651725765401</updated>
       <workItem from="1651725766505" duration="10317000" />
+      <workItem from="1651847262308" duration="3057000" />
     </task>
     <servers />
   </component>

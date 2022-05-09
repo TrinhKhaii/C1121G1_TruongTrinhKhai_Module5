@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="51c1b298-0b8c-4be9-b53b-00b6cd24422a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/article.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/article/article.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/article/article.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/article/article.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/article/article.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/footer/footer.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/footer/footer.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/footer/footer.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/footer/footer.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/like/like.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/like/like.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/like/like.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/like/like.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/navbar/navbar.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/navbar/navbar.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/navbar/navbar.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/navbar/navbar.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/name-card/name-card.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/name-card/name-card.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/name-card/name-card.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/name-card/name-card.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/progress-bar/progress-bar.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/progress-bar/progress-bar.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/progress-bar/progress-bar.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/progress-bar/progress-bar.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/assets/angular.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/tsconfig.spec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss3_angular_overview/bai-tap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss3_angular_overview/bai-tap/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss3_angular_overview/thuc-hanh/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss3_angular_overview/thuc-hanh/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EditorConfigPreviewManager">
+    <editorConfig file="$PROJECT_DIR$/.editorconfig" previewFile="$PROJECT_DIR$/src/app/article/article.component.ts" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="28opZC7GEg7Qsu1BrKGyNKAbd7s" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="Tests (thuc-hanh)" type="JavaScriptTestRunnerKarma">
+      <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <working-directory value="$PROJECT_DIR$" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51c1b298-0b8c-4be9-b53b-00b6cd24422a" name="Changes" comment="" />
+      <created>1651892846133</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651892846133</updated>
+      <workItem from="1651892847345" duration="4929000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

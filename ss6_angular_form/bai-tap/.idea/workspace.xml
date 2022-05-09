@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6ed54428-717f-4173-a55f-debc069fb712" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-create-form/customer-create-form.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-create-form/customer-create-form.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-create-form/customer-create-form.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-create-form/customer-create-form.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-dao/CustomerDao.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-edit-form/customer-edit-form.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-edit-form/customer-edit-form.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-edit-form/customer-edit-form.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-edit-form/customer-edit-form.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-list/customer-list.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-list/customer-list.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-list/customer-list.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-list/customer-list.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-model/ICustomer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/service-component/service-dao/ServiceDao.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/service-component/service-list/service-list.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/service-component/service-list/service-list.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/service-component/service-list/service-list.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/service-component/service-list/service-list.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/service-component/service-model/IService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/service-component/villa-create-form/villa-create-form.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/service-component/villa-create-form/villa-create-form.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/service-component/villa-create-form/villa-create-form.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/service-component/villa-create-form/villa-create-form.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/service-component/villa-edit-form/villa-edit-form.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/service-component/villa-edit-form/villa-edit-form.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/service-component/villa-edit-form/villa-edit-form.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/service-component/villa-edit-form/villa-edit-form.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/templates-component/footer/footer.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/templates-component/footer/footer.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/templates-component/footer/footer.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/templates-component/footer/footer.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/templates-component/header/header.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/templates-component/header/header.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/templates-component/header/header.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/templates-component/header/header.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/templates-component/nav-bar/nav-bar.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/templates-component/nav-bar/nav-bar.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/templates-component/nav-bar/nav-bar.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/templates-component/nav-bar/nav-bar.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/article.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/article/article.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/article/article.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/article/article.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/article/article.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/footer/footer.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/footer/footer.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/footer/footer.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/footer/footer.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/like/like.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/like/like.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/like/like.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/like/like.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/navbar/navbar.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/navbar/navbar.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/navbar/navbar.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/app/navbar/navbar.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss4_angular_component_and_template/thuc-hanh/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/.idea/bai-tap.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/src/app/countdown-timer/countdown-timer.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/src/app/countdown-timer/countdown-timer.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/src/app/countdown-timer/countdown-timer.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/src/app/countdown-timer/countdown-timer.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/src/app/i-rating-unit.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/src/app/rating-bar/rating-bar.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/src/app/rating-bar/rating-bar.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/src/app/rating-bar/rating-bar.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/src/app/rating-bar/rating-bar.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/bai-tap/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/name-card/name-card.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/name-card/name-card.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/name-card/name-card.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/name-card/name-card.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/progress-bar/progress-bar.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/progress-bar/progress-bar.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/progress-bar/progress-bar.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/app/progress-bar/progress-bar.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/assets/angular.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5_components_interaction/thuc-hanh/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/account.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/register-form/register-form.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/register-form/register-form.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/register-form/register-form.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/register-form/register-form.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc-hanh/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc-hanh/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc-hanh/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc-hanh/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc-hanh/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc-hanh/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc-hanh/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc-hanh/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc-hanh/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc-hanh/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc-hanh/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc-hanh/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc-hanh/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc-hanh/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc-hanh/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc-hanh/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc-hanh/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc-hanh/src/app/todo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc-hanh/src/app/todo/todo.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc-hanh/src/app/todo/todo.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc-hanh/src/app/todo/todo.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc-hanh/src/app/todo/todo.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc-hanh/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc-hanh/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc-hanh/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc-hanh/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc-hanh/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc-hanh/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc-hanh/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc-hanh/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc-hanh/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc-hanh/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc-hanh/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc-hanh/tsconfig.spec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study/furama_fe/template/service/create-villa.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama_fe/template/service/create-villa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss3_angular_overview/bai-tap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss3_angular_overview/bai-tap/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss3_angular_overview/thuc-hanh/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss3_angular_overview/thuc-hanh/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="28sBjvguYy4PEGBosJ0SXAzyOoo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="Tests (bai-tap)" type="JavaScriptTestRunnerKarma">
+      <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <working-directory value="$PROJECT_DIR$" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ed54428-717f-4173-a55f-debc069fb712" name="Changes" comment="" />
+      <created>1651995551638</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651995551638</updated>
+      <workItem from="1651995553169" duration="7590000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
