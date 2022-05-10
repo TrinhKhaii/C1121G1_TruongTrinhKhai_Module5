@@ -11,6 +11,8 @@ import { CustomerListComponent } from './customer-component/customer-list/custom
 import { CustomerCreateFormComponent } from './customer-component/customer-create-form/customer-create-form.component';
 import { CustomerEditFormComponent } from './customer-component/customer-edit-form/customer-edit-form.component';
 import { VillaEditFormComponent } from './service-component/villa-edit-form/villa-edit-form.component';
+import { ContractListComponent } from './contract-component/contract-list/contract-list.component';
+import { ContractCreateFormComponent } from './contract-component/contract-create-form/contract-create-form.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { VillaEditFormComponent } from './service-component/villa-edit-form/vill
     CustomerListComponent,
     CustomerCreateFormComponent,
     CustomerEditFormComponent,
-    VillaEditFormComponent
+    VillaEditFormComponent,
+    ContractListComponent,
+    ContractCreateFormComponent
   ],
   imports: [
     BrowserModule
