@@ -1,0 +1,60 @@
+<div class=" col-4 mx-auto">
+  <form [formGroup]="createForm" (ngSubmit)="submit()">
+    <div class="modal-header">
+      <h5 class="modal-title">Thêm mới bệnh án</h5>
+    </div>
+    <div class="modal-body">
+      <div class="form-group mb-4">
+        <div class="form-outline">
+          <input type="text" id="medicalRecordCode" class="form-control" formControlName="medicalRecordCode">
+          <label class="form-label" for="medicalRecordCode">Mã bệnh án<span class="text-danger">(*)</span></label>
+        </div>
+        <small class="text-danger" ></small>
+      </div>
+
+        <div class="form-group mb-4">
+          <div class="form-outline">
+            <input type="text" id="patientCode" class="form-control" formControlName="patientCode">
+            <label class="form-label" for="patientCode">Mã bệnh nhân<span class="text-danger">(*)</span></label>
+          </div>
+          <small class="text-danger"></small>
+        </div>
+
+        <div class="form-group mb-4">
+          <div class="form-outline">
+            <input type="text" id="patientName" class="form-control" formControlName="patientName">
+            <label class="form-label" for="patientName">Tên bệnh nhân<span class="text-danger">(*)</span></label>
+          </div>
+          <small class="text-danger"></small>
+        </div>
+
+      <div class="form-group mb-4">
+        <div class="form-outline">
+          <input type="date" id="startDate" class="form-control" formControlName="startDate">
+          <label class="form-label" for="startDate">Ngày nhập viện<span class="text-danger">(*)</span></label>
+        </div>
+        <small class="text-danger"></small>
+      </div>
+
+      <div class="form-group mb-4">
+        <div class="form-outline">
+          <input type="date" id="endDate" class="form-control" formControlName="endDate">
+          <label class="form-label" for="endDate">Ngày ra viện<span class="text-danger">(*)</span></label>
+        </div>
+        <small class="text-danger"></small>
+      </div>
+
+      <div class="form-group mb-4">
+        <div class="form-outline">
+          <input type="text" id="reason" class="form-control" formControlName="reason">
+          <label class="form-label" for="reason">Lý do nhập viện<span class="text-danger">(*)</span></label>
+        </div>
+        <small class="text-danger"></small>
+      </div>
+
+    </div>
+    <div class="modal-footer">
+      <input type="submit"  class="btn btn-primary" value="Thêm mới">
+    </div>
+  </form>
+</div>

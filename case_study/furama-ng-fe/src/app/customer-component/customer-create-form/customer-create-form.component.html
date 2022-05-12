@@ -5,77 +5,108 @@
 <div class="p-2"></div>
 
 <div class=" col-4 mx-auto">
-  <form method="post" >
+  <form [formGroup]="customerForm" (ngSubmit)="submit()">
 <!--    <div class="modal-header">-->
 <!--      <h5 class="modal-title">Thêm mới khách hàng</h5>-->
 <!--    </div>-->
     <div class="modal-body">
       <div class="form-group mb-4">
         <div class="form-outline">
-          <input type="text" id="customerCode" class="form-control">
+          <input type="text" id="customerCode" class="form-control" formControlName="customerCode">
           <label class="form-label" for="customerCode">Mã khách hàng<span class="text-danger">(*)</span></label>
         </div>
-        <small class="text-danger"></small>
+        <div *ngIf="customerCode?.touched">
+          <small class="text-danger" *ngIf="customerCode?.errors?.['required']">Mã khách hàng không được để trống.</small>
+          <small class="text-danger" *ngIf="customerCode?.errors?.['pattern']" >Mã khách hàng phải có định dạng KH-XXXX, trong đó X là số tự nhiên.</small>
+        </div>
       </div>
       <div class="form-group mb-4">
         <div class="form-outline">
-          <input type="text" id="customerName" class="form-control">
+          <input type="text" id="customerName" class="form-control" formControlName="customerName">
           <label class="form-label" for="customerName">Họ Tên<span class="text-danger">(*)</span></label>
         </div>
-        <small class="text-danger"></small>
+        <div *ngIf="customerName?.touched">
+          <small class="text-danger" *ngIf="customerName?.errors?.['required']">Tên khách hàng không được để trống.</small>
+        </div>
       </div>
 
       <label class="form-label" for="gender">Giới tính</label>
-      <select  id="gender" class="form-control mb-4">
-        <option ></option>
-      </select>
+      <div class="mb-4">
+        <select id="gender" class="form-control" formControlName="gender">
+          <option *ngFor="let gender of genderList" value="{{gender}}" >{{gender}}</option>
+        </select>
+        <div *ngIf="gender?.touched">
+          <small class="text-danger" *ngIf="gender?.errors?.['required']">Giới tính không được để trống.</small>
+        </div>
+      </div>
 
       <div class="form-group mb-4">
         <div class="form-outline">
-          <input type="date" id="dayOfBirth" class="form-control">
+          <input type="date" id="dayOfBirth" class="form-control" formControlName="dayOfBirth">
           <label class="form-label" for="dayOfBirth">Ngày sinh<span class="text-danger">(*)</span></label>
         </div>
-        <small class="text-danger"></small>
-
+        <div *ngIf="dayOfBirth?.touched">
+          <small class="text-danger" *ngIf="dayOfBirth?.errors?.['required']">Ngày sinh không được để trống.</small>
+        </div>
       </div>
+
       <div class="form-group mb-4">
         <div class="form-outline">
-          <input type="text" id="idCard" class="form-control" >
+          <input type="text" id="idCard" class="form-control" formControlName="idCard">
           <label class="form-label" for="idCard">Số CMND<span class="text-danger">(*)</span></label>
         </div>
-        <small class="text-danger"></small>
+        <div *ngIf="idCard?.touched">
+          <small class="text-danger" *ngIf="idCard?.errors?.['required']">CMND không được để trống.</small>
+          <small class="text-danger" *ngIf="idCard?.errors?.['pattern']" >CMND phải có định dạng XXXXXXXXX hoặc XXXXXXXXXXXXXXXX, trong đó X là số tự nhiên.</small>
+        </div>
       </div>
+
       <div class="form-group mb-4">
         <div class="form-outline">
-          <input type="text" id="phoneNumber" class="form-control">
+          <input type="text" id="phoneNumber" class="form-control" formControlName="phoneNumber">
           <label class="form-label" for="phoneNumber">Số điện thoại<span class="text-danger">(*)</span></label>
         </div>
-        <small class="text-danger"></small>
+        <div *ngIf="phoneNumber?.touched">
+          <small class="text-danger" *ngIf="phoneNumber?.errors?.['required']">Số điện thoại không được để trống.</small>
+          <small class="text-danger" *ngIf="phoneNumber?.errors?.['pattern']" >Sai định dạng số điện thoại.</small>
+        </div>
       </div>
+
       <div class="form-group mb-4">
         <div class="form-outline">
-          <input type="text" id="email" class="form-control">
+          <input type="text" id="email" class="form-control" formControlName="email">
           <label class="form-label" for="email">Email</label>
         </div>
-        <small class="text-danger"></small>
+        <div *ngIf="email?.touched">
+          <small class="text-danger" *ngIf="email?.errors?.['required']">Email không được để trống.</small>
+          <small class="text-danger" *ngIf="email?.errors?.['pattern']" >Sai định dạng email.</small>
+        </div>
       </div>
+
       <div class="form-group mb-4">
         <div class="form-outline">
-          <input type="text" id="address" class="form-control">
+          <input type="text" id="address" class="form-control" formControlName="address">
           <label class="form-label" for="address">Địa chỉ</label>
         </div>
-        <small class="text-danger"></small>
+        <div *ngIf="address?.touched">
+          <small class="text-danger" *ngIf="address?.errors?.['required']">Địa chỉ không được để trống.</small>
+        </div>
       </div>
 
       <label class="form-label" for="customerType">Loại</label>
-      <select id="customerType" class="form-control mb-4">
-        <option></option>
-      </select>
+      <div class="mb-4">
+        <select id="customerType" class="form-control" formControlName="customerType">
+          <option *ngFor="let customerType of customerTypeList" value="{{customerType}}" >{{customerType}}</option>
+        </select>
+        <div *ngIf="customerType?.touched">
+          <small class="text-danger" *ngIf="customerType?.errors?.['required']">Loại không được để trống.</small>
+        </div>
+      </div>
 
     </div>
     <div class="modal-footer">
       <!--            <a th:href="@{/customer}" type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Đóng</a>-->
-      <input type="submit" class="btn btn-primary" value="Thêm mới">
+      <input [disabled]="!customerForm.valid" type="submit" class="btn btn-success" value="Thêm mới">
     </div>
   </form>
 </div>

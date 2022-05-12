@@ -1,103 +1,123 @@
 <div class="p-5"></div>
 <div class="text-center">
-  <p class="lead display-5">Thông tin chi tiết</p>
+  <p class="lead display-5">Chỉnh sửa thông tin dịch vụ</p>
 </div>
 
 <div class=" col-4 mx-auto" >
-  <form method="post">
-    <!--        <div class="modal-header">-->
-    <!--            <h5 class="modal-title">Thêm mới villa</h5>-->
-    <!--        </div>-->
+  <form [formGroup]="villaEditForm" (ngSubmit)="submit()">
     <div class="modal-body">
-
       <div class="form-group mb-4" id="serviceCode">
         <div class="form-outline">
-          <input type="text" class="form-control" value="DV-001">
+          <input type="text" class="form-control" formControlName="serviceCode">
           <label class="form-label" for="serviceCode">Mã dịch vụ<span class="text-danger">(*)</span></label>
         </div>
-        <small class="text-danger"></small>
+        <div *ngIf="serviceCode?.touched">
+          <small class="text-danger" *ngIf="serviceCode?.errors?.['required']">Mã dịch vụ không được để trống.</small>
+          <small class="text-danger" *ngIf="serviceCode?.errors?.['pattern']" >Mã dịch vụ phải có định dạng DV-XXXX, trong đó X là số tự nhiên.</small>
+        </div>
       </div>
 
-      <div class="form-group mb-4" id="serviceName">
+      <div class="form-group form-outline mb-4" id="serviceName">
         <div class="form-outline">
-          <input type="text"  class="form-control" value="Villa 1">
+          <input type="text" class="form-control" formControlName="serviceName">
           <label class="form-label" for="serviceName">Tên dịch vụ<span class="text-danger">(*)</span></label>
         </div>
-        <small class="text-danger"></small>
+        <div *ngIf="serviceName?.touched">
+          <small class="text-danger" *ngIf="serviceName?.errors?.['required']">Tên dịch vụ không được để trống.</small>
+          <small class="text-danger" *ngIf="serviceName?.errors?.['maxlength']" >Tên dịch vụ phải ít hơn 30 ký tự.</small>
+        </div>
       </div>
 
       <div class="form-group mb-4" id="serviceArea">
         <div class="form-outline">
-          <input type="text"  class="form-control" value="10000">
+          <input type="text" class="form-control" formControlName="serviceArea">
           <label class="form-label" for="serviceArea">Diện tích sử dụng<span class="text-danger">(*)</span></label>
         </div>
-        <small class="text-danger"></small>
+        <div *ngIf="serviceArea?.touched">
+          <small class="text-danger" *ngIf="serviceArea?.errors?.['required']">Diện tích sử dụng không được để trống.</small>
+          <small class="text-danger" *ngIf="serviceArea?.errors?.['min']">Diện tích sử dụng phải là số dương.</small>
+        </div>
       </div>
 
       <div class="form-group mb-4" id="serviceCost">
         <div class="form-outline">
-          <input type="text"  class="form-control" value="400000">
+          <input type="text" class="form-control" formControlName="serviceCost">
           <label class="form-label" for="serviceCost">Chi phí thuê<span class="text-danger">(*)</span></label>
         </div>
-        <small class="text-danger"></small>
+        <div *ngIf="serviceCost?.touched">
+          <small class="text-danger" *ngIf="serviceCost?.errors?.['required']">Chi phí thuê không được để trống.</small>
+          <small class="text-danger" *ngIf="serviceCost?.errors?.['min']">Chi phí thuê phải là số dương.</small>
+        </div>
       </div>
 
       <div class="form-group mb-4" id="serviceMaxPeople">
         <div class="form-outline">
-          <input type="text"  class="form-control" value="4">
-          <label class="form-label" for="serviceMaxPeople">Số lượng người tối đa<span class="text-danger">(*)</span></label>
+          <input type="text" class="form-control" formControlName="serviceMaxPeople">
+          <label class="form-label" for="serviceMaxPeople">Số lượng người tối đa<span
+            class="text-danger">(*)</span></label>
         </div>
-        <small class="text-danger"></small>
+        <div *ngIf="serviceMaxPeople?.touched">
+          <small class="text-danger" *ngIf="serviceMaxPeople?.errors?.['required']">Số lượng người tối đa không được để trống.</small>
+          <small class="text-danger" *ngIf="serviceMaxPeople?.errors?.['min']" >Số lượng người tối đa phải là số dương.</small>
+        </div>
       </div>
 
-      <div id="standardRoom">
+      <div id="standardRoom" class=" mb-4">
         <label class="form-label" for="standardRoom">Tiêu chuẩn phòng<span class="text-danger">(*)</span></label>
-        <select class="form-control mb-4">
-          <option selected>Diamond</option>
-          <option>Diamond</option>
-          <option>Diamond</option>
+        <select class="form-control" formControlName="standardRoom">
+          <option *ngFor="let standardRoom of standardRoomList" value="{{standardRoom}}" >{{standardRoom}}</option>
         </select>
+        <div *ngIf="standardRoom?.touched">
+          <small class="text-danger" *ngIf="standardRoom?.errors?.['required']">Tiêu chuẩn phòng không được để trống.</small>
+        </div>
       </div>
-
 
       <div class="form-group mb-4" id="descritionOtherConvenience">
         <div class="form-outline">
-          <input type="text"  class="form-control" value="Tâm baby">
-          <label class="form-label" for="descritionOtherConvenience">Mô tả tiện nghi khác<span class="text-danger">(*)</span></label>
+          <input type="text" class="form-control" formControlName="descritionOtherConvenience">
+          <label class="form-label" for="descritionOtherConvenience">Mô tả tiện nghi khác<span
+            class="text-danger">(*)</span></label>
         </div>
-        <small class="text-danger"></small>
+        <div *ngIf="descritionOtherConvenience?.touched">
+          <small class="text-danger" *ngIf="descritionOtherConvenience?.errors?.['required']">Mô tả tiện nghi khác không được để trống.</small>
+          <small class="text-danger" *ngIf="descritionOtherConvenience?.errors?.['maxlength']" >Mô tả tiện nghi khác phải ít hơn 30 ký tự.</small>
+        </div>
       </div>
 
       <div class="form-group mb-4" id="poolArea">
         <div class="form-outline">
-          <input type="text"  class="form-control" value="50">
+          <input type="text" class="form-control" formControlName="poolArea">
           <label class="form-label" for="poolArea">Diện tích hồ bơi<span class="text-danger">(*)</span></label>
         </div>
-        <small class="text-danger"></small>
-      </div>
-
-      <div class="form-group mb-4" id="numberOdFloors">
-        <div class="form-outline">
-          <input type="text"  class="form-control" value="3">
-          <label class="form-label" for="numberOdFloors">Số tầng<span class="text-danger">(*)</span></label>
+        <div *ngIf="poolArea?.touched">
+          <small class="text-danger" *ngIf="poolArea?.errors?.['required']">Diện tích hồ bơi không được để trống.</small>
+          <small class="text-danger" *ngIf="poolArea?.errors?.['min']">Diện tích hồ bơi phải là số dương.</small>
         </div>
-        <small class="text-danger"></small>
       </div>
 
-      <div id="rentType">
+      <div class="form-group mb-4" id="numberOfFloors">
+        <div class="form-outline">
+          <input type="text" class="form-control" formControlName="numberOfFloors">
+          <label class="form-label" for="numberOfFloors">Số tầng<span class="text-danger">(*)</span></label>
+        </div>
+        <div *ngIf="numberOfFloors?.touched">
+          <small class="text-danger" *ngIf="numberOfFloors?.errors?.['required']">Số tầng không được để trống.</small>
+          <small class="text-danger" *ngIf="numberOfFloors?.errors?.['min']">Số tầng phải là số dương.</small>
+        </div>
+      </div>
+
+      <div id="rentType" class="mb-4">
         <label class="form-label" for="rentType">Kiểu thuê<span class="text-danger">(*)</span></label>
-        <select class="form-control mb-4">
-          <option selected>Year</option>
-          <option>Month</option>
-          <option>Day</option>
-          <option>Hour</option>
+        <select class="form-control " formControlName="rentType">
+          <option *ngFor="let rentType of rentTypeList" value="{{rentType}}" >{{rentType}}</option>
         </select>
+        <div *ngIf="rentType?.touched">
+          <small class="text-danger" *ngIf="rentType?.errors?.['required']">Kiểu thuê không được để trống.</small>
+        </div>
       </div>
     </div>
     <div class="modal-footer">
-      <button type="button" class="btn btn-outline-danger" data-mdb-ripple-color="dark" data-mdb-toggle="modal"
-              data-mdb-target="#deleteModal">Xóa</button>
-      <button type="button" class="btn btn-outline-warning" data-mdb-ripple-color="dark">Cập nhật</button>
+      <input [disabled]="!villaEditForm.valid" type="submit" class="btn btn-success" value="Thêm mới">
     </div>
   </form>
 </div>

@@ -15,7 +15,7 @@
         <a type="button" class="btn btn-primary me-3">
           DANH SÁCH KHÁCH HÀNG SỬ DỤNG DỊCH VỤ
         </a>
-        <a type="button" class="btn btn-primary me-3">
+        <a type="button" class="btn btn-primary me-3" [routerLink]="['/customer-create-form']">
           THÊM MỚI
         </a>
       </div>
@@ -53,7 +53,7 @@
     <td>{{customer.address}}</td>
     <td>{{customer.customerType}}</td>
     <td>
-      <a type="button" class="btn btn-link btn-sm btn-rounded edit_btn" >
+      <a type="button" class="btn btn-link btn-sm btn-rounded edit_btn" [routerLink]="['/customer-edit-form', customer.customerId]">
         Sửa
       </a>
     </td>

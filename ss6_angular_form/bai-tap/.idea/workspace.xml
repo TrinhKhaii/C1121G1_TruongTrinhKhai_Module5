@@ -2,25 +2,126 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ed54428-717f-4173-a55f-debc069fb712" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/login-form/login-form.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/login-form/login-form.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/be-api/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/be-api/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/be-api/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/be-api/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/be-api/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/be-api/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/be-api/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/be-api/src/main/java/api/BeApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/be-api/src/main/java/api/model/MedicalRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/be-api/src/main/java/api/model/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/be-api/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/be-api/src/test/java/api/BeApiApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/medical-record/medical-record-create/medical-record-create.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/medical-record/medical-record-create/medical-record-create.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/medical-record/medical-record-create/medical-record-create.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/medical-record/medical-record-create/medical-record-create.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/medical-record/medical-record-edit/medical-record-edit.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/medical-record/medical-record-edit/medical-record-edit.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/medical-record/medical-record-edit/medical-record-edit.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/medical-record/medical-record-edit/medical-record-edit.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/medical-record/medical-record-list/medical-record-list.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/medical-record/medical-record-list/medical-record-list.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/medical-record/medical-record-list/medical-record-list.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/medical-record/medical-record-list/medical-record-list.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/medical-record/medical-record-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/medical-record/medical-record.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/medical-record/model/medical-record.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/medical-record/model/patient.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/medical-record/service/medical-record.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/medical-record/service/medical-record.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/templates-component/templates-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/templates-component/templates.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/model/song.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/service/date-util.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/service/date-util.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/service/song.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/service/song.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/timelines/timelines.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/timelines/timelines.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/timelines/timelines.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/timelines/timelines.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/tslint.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/contract-component/contract-create-form/contract-create-form.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/login-form/login-form.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/contract-component/contract-create-form/contract-create-form.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/contract-component/contract-create-form/contract-create-form.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/contract-component/contract-create-form/contract-create-form.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/contract-component/contract-dao/ContractDao.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/contract-component/contract-list/contract-list.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/contract-component/contract-list/contract-list.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/contract-component/contract-list/contract-list.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/login-form/login-form.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/contract-component/contract-list/contract-list.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/contract-component/contract-model/IContract.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/contract-component/contract-create-form/contract-create-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/contract-component/contract-create-form/contract-create-form.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/contract-component/contract-create-form/contract-create-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/contract-component/contract-create-form/contract-create-form.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-create-form/customer-create-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-create-form/customer-create-form.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-create-form/customer-create-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-create-form/customer-create-form.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-edit-form/customer-edit-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-edit-form/customer-edit-form.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-edit-form/customer-edit-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-edit-form/customer-edit-form.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-list/customer-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-list/customer-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/service-component/villa-create-form/villa-create-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/service-component/villa-create-form/villa-create-form.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/service-component/villa-create-form/villa-create-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/service-component/villa-create-form/villa-create-form.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/service-component/villa-edit-form/villa-edit-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/service-component/villa-edit-form/villa-edit-form.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/service-component/villa-edit-form/villa-edit-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/service-component/villa-edit-form/villa-edit-form.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/templates-component/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/templates-component/header/header.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/register-form/register-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/register-form/register-form.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/register-form/register-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/register-form/register-form.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +192,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651995551638</updated>
-      <workItem from="1651995553169" duration="15294000" />
+      <workItem from="1651995553169" duration="20749000" />
     </task>
     <servers />
   </component>

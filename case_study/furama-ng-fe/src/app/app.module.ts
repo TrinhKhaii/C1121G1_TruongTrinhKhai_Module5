@@ -13,24 +13,32 @@ import { CustomerEditFormComponent } from './customer-component/customer-edit-fo
 import { VillaEditFormComponent } from './service-component/villa-edit-form/villa-edit-form.component';
 import { ContractListComponent } from './contract-component/contract-list/contract-list.component';
 import { ContractCreateFormComponent } from './contract-component/contract-create-form/contract-create-form.component';
+import {ReactiveFormsModule} from "@angular/forms";
+import {RouterModule} from "@angular/router";
+import {CustomerModule} from "./customer-component/customer.module";
+import {TemplatesModule} from "./templates-component/templates.module";
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    NavBarComponent,
+    // NavBarComponent,
     ServiceListComponent,
     VillaCreateFormComponent,
-    CustomerListComponent,
-    CustomerCreateFormComponent,
-    CustomerEditFormComponent,
+    // CustomerListComponent,
+    // CustomerCreateFormComponent,
+    // CustomerEditFormComponent,
     VillaEditFormComponent,
     ContractListComponent,
     ContractCreateFormComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    ReactiveFormsModule,
+    RouterModule,
+    CustomerModule,
+    TemplatesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
