@@ -2,126 +2,93 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e16bbf61-6241-4225-a8e2-26a708e0c700" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/be-api/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/be-api/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/be-api/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/be-api/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/be-api/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/be-api/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/be-api/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/be-api/src/main/java/api/BeApiApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/be-api/src/main/java/api/model/MedicalRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/be-api/src/main/java/api/model/Patient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/be-api/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/be-api/src/test/java/api/BeApiApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/browserslist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/e2e/protractor.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/e2e/src/app.e2e-spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/e2e/src/app.po.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/e2e/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/app.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/app.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/medical-record/medical-record-create/medical-record-create.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/medical-record/medical-record-create/medical-record-create.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/medical-record/medical-record-create/medical-record-create.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/medical-record/medical-record-create/medical-record-create.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/medical-record/medical-record-edit/medical-record-edit.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/medical-record/medical-record-edit/medical-record-edit.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/medical-record/medical-record-edit/medical-record-edit.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/medical-record/medical-record-edit/medical-record-edit.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/medical-record/medical-record-list/medical-record-list.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/medical-record/medical-record-list/medical-record-list.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/medical-record/medical-record-list/medical-record-list.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/medical-record/medical-record-list/medical-record-list.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/medical-record/medical-record-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/medical-record/medical-record.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/medical-record/model/medical-record.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/medical-record/model/patient.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/medical-record/service/medical-record.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/app/medical-record/service/medical-record.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/environments/environment.prod.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/environments/environment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/polyfills.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/src/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/tsconfig.spec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/templates-component/templates-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/templates-component/templates.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browserslist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/protractor.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/src/app.e2e-spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/src/app.po.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/app.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/app.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/model/song.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/service/date-util.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/service/date-util.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/service/song.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/service/song.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/timelines/timelines.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/timelines/timelines.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/timelines/timelines.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/timelines/timelines.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/environments/environment.prod.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/environments/environment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polyfills.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.spec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/contract-component/contract-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/contract-component/contract.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/model/customer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/service-component/service-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/service-component/service.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/src/app/dictionary-detail/dictionary-detail.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/src/app/dictionary-detail/dictionary-detail.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/src/app/dictionary-detail/dictionary-detail.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/src/app/dictionary-detail/dictionary-detail.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/src/app/dictionary-page/dictionary-page.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/src/app/dictionary-page/dictionary-page.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/src/app/dictionary-page/dictionary-page.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/src/app/dictionary-page/dictionary-page.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/src/app/model/word.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/src/app/service/word.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/src/app/service/word.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai-tap/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/model/product.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/product/product-create/product-create.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/product/product-create/product-create.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/product/product-create/product-create.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/product/product-create/product-create.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/product/product-delete/product-delete.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/product/product-delete/product-delete.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/product/product-delete/product-delete.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/product/product-delete/product-delete.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/product/product-edit/product-edit.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/product/product-edit/product-edit.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/product/product-edit/product-edit.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/product/product-edit/product-edit.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/product/product-list/product-list.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/product/product-list/product-list.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/product/product-list/product-list.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/product/product-list/product-list.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/service/product.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/service/product.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/youtube-player/youtube-player.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/youtube-player/youtube-player.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/youtube-player/youtube-player.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/youtube-player/youtube-player.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/youtube-playlist/youtube-playlist.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/youtube-playlist/youtube-playlist.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/youtube-playlist/youtube-playlist.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/youtube-playlist/youtube-playlist.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/contract-component/contract-create-form/contract-create-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/contract-component/contract-create-form/contract-create-form.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/contract-component/contract-create-form/contract-create-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/contract-component/contract-create-form/contract-create-form.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-create-form/customer-create-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-create-form/customer-create-form.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-create-form/customer-create-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-create-form/customer-create-form.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-edit-form/customer-edit-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-edit-form/customer-edit-form.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-edit-form/customer-edit-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-edit-form/customer-edit-form.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-list/customer-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-list/customer-list.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/service-component/villa-create-form/villa-create-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/service-component/villa-create-form/villa-create-form.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/service-component/villa-create-form/villa-create-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/service-component/villa-create-form/villa-create-form.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/service-component/villa-edit-form/villa-edit-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/service-component/villa-edit-form/villa-edit-form.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/service-component/villa-edit-form/villa-edit-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/service-component/villa-edit-form/villa-edit-form.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-list/customer-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-list/customer-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/service-component/service-list/service-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/service-component/service-list/service-list.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/templates-component/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/templates-component/header/header.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ss6_angular_form/bai-tap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss6_angular_form/bai-tap/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,6 +123,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/model" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.Angular CLI Server">
     <configuration name="Tests (thuc-hanh)" type="JavaScriptTestRunnerKarma">
@@ -195,7 +167,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652222728350</updated>
-      <workItem from="1652222729588" duration="7914000" />
+      <workItem from="1652222729588" duration="21556000" />
     </task>
     <servers />
   </component>

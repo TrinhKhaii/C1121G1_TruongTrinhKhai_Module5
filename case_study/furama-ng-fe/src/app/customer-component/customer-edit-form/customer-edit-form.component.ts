@@ -66,6 +66,7 @@ export class CustomerEditFormComponent implements OnInit {
 
   ngOnInit(): void {
     console.log(this.activatedRoute.snapshot.params['id']);
+
   }
 
   submit() {

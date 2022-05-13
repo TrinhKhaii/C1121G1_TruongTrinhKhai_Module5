@@ -20,8 +20,7 @@
 <div class="p-3"></div>
 <div class="text-center">
   <p class="lead display-5">Danh sách dịch vụ</p>
-  <button type="button" class="btn btn-outline-info" data-mdb-ripple-color="dark"
-          onclick="window.location.href='create-villa.html'">
+  <button type="button" class="btn btn-outline-info" data-mdb-ripple-color="dark" [routerLink]="['/villa-create-form']">
     Thêm mới Villa
   </button>
   <button type="button" class="btn btn-outline-warning" data-mdb-ripple-color="dark"
@@ -53,10 +52,11 @@
             <div class="card-body">
               <h5 class="card-title">{{service.serviceName}}</h5>
               <p class="card-text">{{service.serviceDescription}}</p>
-              <button type="button" class="btn btn-outline-info" data-mdb-ripple-color="dark"
-                      onclick="window.location.href='villa-detail.html'">
-                Xem thêm
-              </button>
+              <div *ngIf="service.serviceType == 'Villa'">
+                <button type="button" class="btn btn-outline-info" data-mdb-ripple-color="dark" [routerLink]="['/villa-edit-form']">
+                  Xem thêm
+                </button>
+              </div>
             </div>
           </div>
         </div>

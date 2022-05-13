@@ -1,0 +1,22 @@
+<table class="table table-striped table-hover">
+  <thead>
+  <tr>
+    <th scope="col">Word</th>
+    <th scope="col">Mean</th>
+    <th scope="col"></th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let work of wordList">
+    <td>{{work.word}}</td>
+    <td>{{work.mean}}</td>
+    <td>
+      <button type="button" class="btn btn-link btn-sm btn-rounded" [routerLink]="['/detail', work.id]">
+        Detail
+      </button>
+    </td>
+  </tr>
+  </tbody>
+</table>
+
+<router-outlet></router-outlet>
