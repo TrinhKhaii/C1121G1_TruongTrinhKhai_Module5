@@ -1,0 +1,63 @@
+<div class="p-5"></div>
+<div class="text-center">
+  <p class="lead display-5">Chỉnh sửa thông tin sản phẩm</p>
+</div>
+<div class="p-2"></div>
+
+<div class=" col-4 mx-auto">
+  <form [formGroup]="productEditForm" (ngSubmit)="updateProduct()">
+    <input type="hidden" formControlName="id">
+    <div class="modal-body">
+      <div class="form-group mb-4">
+        <div class="form-outline">
+          <input #nameValue type="text" id="name" class="form-control" formControlName="name">
+          <label class="form-label" for="name">Tên sản phẩm<span class="text-danger">(*)</span></label>
+        </div>
+        <div *ngIf="name?.touched">
+          <small class="text-danger" *ngIf="name?.errors?.required">Tên sản phẩm không được để trống.</small>
+          <small class="text-danger" *ngIf="name?.errors?.maxlength" >Tên sản phẩm có tối đa 30 ký tự.</small>
+        </div>
+      </div>
+      <div class="form-group mb-4">
+        <div class="form-outline">
+          <input type="text" id="manufacturer" class="form-control" formControlName="manufacturer">
+          <label class="form-label" for="manufacturer">Hãng sản xuất<span class="text-danger">(*)</span></label>
+        </div>
+        <div *ngIf="manufacturer?.touched">
+          <small class="text-danger" *ngIf="manufacturer?.errors?.required">Hãng sản xuất không được để trống.</small>
+          <small class="text-danger" *ngIf="manufacturer?.errors?.maxlength" >Hãng sản xuất có tối đa 30 ký tự.</small>
+        </div>
+      </div>
+
+      <div class="form-group mb-4">
+        <div class="form-outline">
+          <input type="text" id="imageUrl" class="form-control" formControlName="imageUrl">
+          <label class="form-label" for="imageUrl">Link ảnh<span class="text-danger">(*)</span></label>
+        </div>
+        <div *ngIf="imageUrl?.touched">
+          <small class="text-danger" *ngIf="imageUrl?.errors?.required">Link ảnh không được để trống.</small>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <input type="button" (click)="sendNameProduct(nameValue)" class="btn btn-danger" value="Xóa" data-mdb-toggle="modal" data-mdb-target="#deleteModal">
+      <input [disabled]="!productEditForm.valid" type="submit" class="btn btn-success" value="Cập nhật">
+    </div>
+  </form>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Xác nhận</h5>
+        <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">Bạn có muốn xóa sản phẩm <span class="text-danger">{{nameDelete}}</span></div>
+      <div class="modal-footer">
+        <button #closeModal type="button" class="btn btn-primary" data-mdb-dismiss="modal">NO</button>
+        <button type="button" (click)="deleteProduct(closeModal)" class="btn btn-danger">OK</button>
+      </div>
+    </div>
+  </div>
+</div>

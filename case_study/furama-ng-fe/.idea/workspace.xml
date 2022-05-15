@@ -2,93 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e514079-3eff-47ff-9f71-da2ec0743788" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/contract-component/contract-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/contract-component/contract.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/model/customer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/service-component/service-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/service-component/service.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/browserslist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/e2e/protractor.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/e2e/src/app.e2e-spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/e2e/src/app.po.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/e2e/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/src/app/app-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/src/app/app.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/src/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/src/app/app.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/src/app/dictionary-detail/dictionary-detail.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/src/app/dictionary-detail/dictionary-detail.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/src/app/dictionary-detail/dictionary-detail.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/src/app/dictionary-detail/dictionary-detail.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/src/app/dictionary-page/dictionary-page.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/src/app/dictionary-page/dictionary-page.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/src/app/dictionary-page/dictionary-page.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/src/app/dictionary-page/dictionary-page.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/src/app/model/word.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/src/app/service/word.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/src/app/service/word.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/src/assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/src/environments/environment.prod.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/src/environments/environment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/src/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/src/polyfills.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/src/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/src/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/tsconfig.spec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/tslint.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/model/product.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/product/product-create/product-create.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/product/product-create/product-create.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/product/product-create/product-create.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/product/product-create/product-create.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/product/product-delete/product-delete.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/product/product-delete/product-delete.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/product/product-delete/product-delete.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/product/product-delete/product-delete.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/product/product-edit/product-edit.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/product/product-edit/product-edit.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/product/product-edit/product-edit.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/product/product-edit/product-edit.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/product/product-list/product-list.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/product/product-list/product-list.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/product/product-list/product-list.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/product/product-list/product-list.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/service/product.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/service/product.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/youtube-player/youtube-player.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/youtube-player/youtube-player.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/youtube-player/youtube-player.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/youtube-player/youtube-player.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/youtube-playlist/youtube-playlist.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/youtube-playlist/youtube-playlist.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/youtube-playlist/youtube-playlist.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/youtube-playlist/youtube-playlist.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/contract-component/contract-model/customer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/contract-component/contract-model/employee.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/contract-component/contract-model/service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/service/contract.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/templates-component/delete-modal/delete-modal.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/templates-component/delete-modal/delete-modal.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/templates-component/delete-modal/delete-modal.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/templates-component/delete-modal/delete-modal.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_connect_to_backend/thuc_hanh/product_management/ng-category/src/app/category/category-create/category-create.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_connect_to_backend/thuc_hanh/product_management/ng-category/src/app/category/category-create/category-create.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_connect_to_backend/thuc_hanh/product_management/ng-category/src/app/category/category-create/category-create.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_connect_to_backend/thuc_hanh/product_management/ng-category/src/app/category/category-create/category-create.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_connect_to_backend/thuc_hanh/product_management/ng-category/src/app/category/category-edit/category-edit.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_connect_to_backend/thuc_hanh/product_management/ng-category/src/app/category/category-edit/category-edit.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_connect_to_backend/thuc_hanh/product_management/ng-category/src/app/category/category-edit/category-edit.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_connect_to_backend/thuc_hanh/product_management/ng-category/src/app/category/category-edit/category-edit.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_connect_to_backend/thuc_hanh/product_management/ng-category/src/app/category/category-list/category-list.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_connect_to_backend/thuc_hanh/product_management/ng-category/src/app/category/category-list/category-list.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_connect_to_backend/thuc_hanh/product_management/ng-category/src/app/category/category-list/category-list.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_connect_to_backend/thuc_hanh/product_management/ng-category/src/app/service/category.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/customer-component/customer-edit-form/customer-edit-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/customer-component/customer-edit-form/customer-edit-form.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/customer-component/customer-list/customer-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/customer-component/customer-list/customer-list.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/service-component/service-list/service-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/service-component/service-list/service-list.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/templates-component/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/templates-component/header/header.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss6_angular_form/bai-tap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss6_angular_form/bai-tap/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/contract-component/contract-create-form/contract-create-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contract-component/contract-create-form/contract-create-form.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/contract-component/contract-create-form/contract-create-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contract-component/contract-create-form/contract-create-form.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/contract-component/contract-dao/ContractDao.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/contract-component/contract-list/contract-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contract-component/contract-list/contract-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/contract-component/contract-list/contract-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contract-component/contract-list/contract-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/contract-component/contract-model/IContract.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contract-component/contract-model/contract.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/templates-component/templates.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/templates-component/templates.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss7_service_and_router/bai-tap/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/youtube-player/youtube-player.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss7_service_and_router/thuc-hanh/src/app/youtube-player/youtube-player.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +53,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -123,6 +80,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -166,7 +124,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652067649465</updated>
-      <workItem from="1652067651165" duration="55170000" />
+      <workItem from="1652067651165" duration="58625000" />
+      <workItem from="1652578024563" duration="13459000" />
     </task>
     <servers />
   </component>

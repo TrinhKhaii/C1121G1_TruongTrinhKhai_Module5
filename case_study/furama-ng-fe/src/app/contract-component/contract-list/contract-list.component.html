@@ -1,7 +1,7 @@
 <div class="p-5"></div>
 <div class="text-center">
   <p class="lead display-5">Danh sách hợp đồng</p>
-  <button type="button" class="btn btn-outline-info" data-mdb-ripple-color="dark" onclick="window.location.href='contract-create.html'">
+  <button type="button" class="btn btn-outline-info" data-mdb-ripple-color="dark" [routerLink]="['/contract-create-form']">
     Thêm mới hợp đồng
   </button>
 </div>
@@ -29,9 +29,9 @@
     <td>{{contract.contractEndDate}}</td>
     <td>{{contract.contractDeposit}}</td>
     <td>{{contract.contractTotalMoney}}</td>
-    <td>{{contract.employeeName}}</td>
-    <td>{{contract.customerName}}</td>
-    <td>{{contract.serviceName}}</td>
+    <td>{{contract.employee.employeeName}}</td>
+    <td>{{contract.customer.customerName}}</td>
+    <td>{{contract.service.serviceName}}</td>
   </tr>
   </tbody>
 </table>

@@ -5,11 +5,13 @@ import {ReactiveFormsModule} from "@angular/forms";
 import {HttpClientModule} from "@angular/common/http";
 import {NavBarComponent} from "./nav-bar/nav-bar.component";
 import {TemplatesRoutingModule} from "./templates-routing.module";
+import { DeleteModalComponent } from './delete-modal/delete-modal.component';
 
 
 @NgModule({
   declarations: [
-    NavBarComponent
+    NavBarComponent,
+    DeleteModalComponent
   ],
   imports: [
     CommonModule,

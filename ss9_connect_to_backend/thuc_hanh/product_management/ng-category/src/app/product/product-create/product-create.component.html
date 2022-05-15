@@ -1,0 +1,46 @@
+<div class="p-5"></div>
+<div class="text-center">
+  <p class="lead display-5">Thêm mới sản phẩm</p>
+</div>
+<div class="p-2"></div>
+
+<div class=" col-4 mx-auto">
+  <form [formGroup]="productForm" (ngSubmit)="addNewProduct()">
+    <div class="modal-body">
+      <div class="form-group mb-4">
+        <div class="form-outline">
+          <input type="text" id="name" class="form-control" formControlName="name">
+          <label class="form-label" for="name">Tên sản phẩm<span class="text-danger">(*)</span></label>
+        </div>
+        <div *ngIf="name?.touched">
+          <small class="text-danger" *ngIf="name?.errors?.required">Tên sản phẩm không được để trống.</small>
+          <small class="text-danger" *ngIf="name?.errors?.maxlength" >Tên sản phẩm có tối đa 30 ký tự.</small>
+        </div>
+      </div>
+      <div class="form-group mb-4">
+        <div class="form-outline">
+          <input type="text" id="manufacturer" class="form-control" formControlName="manufacturer">
+          <label class="form-label" for="manufacturer">Hãng sản xuất<span class="text-danger">(*)</span></label>
+        </div>
+        <div *ngIf="manufacturer?.touched">
+          <small class="text-danger" *ngIf="manufacturer?.errors?.required">Hãng sản xuất không được để trống.</small>
+          <small class="text-danger" *ngIf="manufacturer?.errors?.maxlength" >Hãng sản xuất có tối đa 30 ký tự.</small>
+        </div>
+      </div>
+
+      <div class="form-group mb-4">
+        <div class="form-outline">
+          <input type="text" id="imageUrl" class="form-control" formControlName="imageUrl">
+          <label class="form-label" for="imageUrl">Link ảnh<span class="text-danger">(*)</span></label>
+        </div>
+        <div *ngIf="imageUrl?.touched">
+          <small class="text-danger" *ngIf="imageUrl?.errors?.required">Link ảnh không được để trống.</small>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <!--            <a th:href="@{/customer}" type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Đóng</a>-->
+      <input [disabled]="!productForm.valid" type="submit" class="btn btn-success" value="Thêm mới">
+    </div>
+  </form>
+</div>

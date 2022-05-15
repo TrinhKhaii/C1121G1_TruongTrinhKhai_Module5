@@ -26,7 +26,7 @@ export class YoutubePlayerComponent implements OnInit {
 
   getSrc() {
     const url = 'https://www.youtube.com/embed/' + this.song.id;
-    return this.domSanitizer.bypassSecurityTrustResourceUrl(url);;
+    return this.domSanitizer.bypassSecurityTrustResourceUrl(url);
   }
 
 }

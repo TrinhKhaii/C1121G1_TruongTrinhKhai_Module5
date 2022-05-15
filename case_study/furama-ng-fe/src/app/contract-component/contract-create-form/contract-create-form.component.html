@@ -64,7 +64,7 @@
 
       <label class="form-label" for="employee">Khách hàng</label>
       <div class="mb-4">
-        <select id="customer" class="form-control" formControlName="customer">
+        <select id="customer" class="form-control" formControlName="customer" [compareWith]="compare">
           <option *ngFor="let customer of customerList" value="{{customer}}" >{{customer}}</option>
         </select>
         <div *ngIf="customer?.touched">

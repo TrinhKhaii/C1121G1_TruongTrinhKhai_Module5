@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {IContract} from "../contract-model/IContract";
-import {ContractDao} from "../contract-dao/ContractDao";
+import {Contract} from "../contract-model/contract";
+import {ContractService} from "../../service/contract.service";
 
 @Component({
   selector: 'app-contract-list',
@@ -9,11 +9,18 @@ import {ContractDao} from "../contract-dao/ContractDao";
 })
 export class ContractListComponent implements OnInit {
 
-  contractList: IContract[] = ContractDao.contractList;
+  contractList: Contract[] = []
 
-  constructor() { }
+  constructor(private contractService: ContractService) { }
 
   ngOnInit(): void {
+    this.getAll();
   }
 
+  getAll() {
+      this.contractService.getAll().subscribe((res: Contract[]) => {
+        this.contractList = res;
+        console.log(this.contractList)
+      })
+  }
 }

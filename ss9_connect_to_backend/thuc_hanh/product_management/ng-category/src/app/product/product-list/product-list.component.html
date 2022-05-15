@@ -1,0 +1,59 @@
+<header>
+  <!-- Navbar -->
+  <nav id="main-navbar" class="navbar navbar-expand-lg navbar-light bg-white">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Search form -->
+
+      <input type="text" name="searchValue" placeholder="Name" [(ngModel)]="searchName" (ngModelChange)="search()">
+      <button class=" border-0" id="search-addon">Search</button>
+
+      <!-- Right links -->
+      <div class="navbar-nav ms-auto d-flex flex-row">
+        <a type="button" class="btn btn-primary me-3" [routerLink]="['/product-create']">
+          THÊM MỚI
+        </a>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="p-3"></div>
+<div class="text-center">
+  <p class="lead display-5">Danh sách sản phẩm</p>
+</div>
+<div class="p-3"></div>
+
+
+<div class="container col-9">
+  <div class="row row-cols-2 row-cols-lg-3 g-2 g-lg-3 text-center">
+    <div *ngFor="let product of products">
+      <div class="col">
+        <div class="p-5">
+          <div class="card ">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img
+                [src]="product.imageUrl"
+                class="img-fluid">
+              <a>
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">{{product.name}}</h5>
+              <p class="card-text">{{product.manufacturer}}</p>
+              <button type="button" class="btn btn-outline-info" data-mdb-ripple-color="dark" [routerLink]="['/product-edit', product.id]">
+                Chi tiết
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-12" style="display: flex; justify-content: flex-end; padding-right: 20px">
+  <a type="button" class="btn btn-outline-info" (click)="previousPage()">Previous</a>
+  <span>{{pageNumber + 1}}</span>/<span>{{totalPages}}</span>
+  <a type="button" class="btn btn-outline-info" (click)="nextPage()">Next</a>
+</div>

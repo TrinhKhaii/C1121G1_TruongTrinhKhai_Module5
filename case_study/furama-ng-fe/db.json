@@ -1,0 +1,67 @@
+{
+  "contract": [
+    {
+      "contractId": 1,
+      "contractCode": "HD-0001",
+      "contractStartDate": "2022-04-23",
+      "contractEndDate": "2022-04-28",
+      "contractDeposit": 1000.0,
+      "contractTotalMoney": 12000.0,
+      "deleteFlag": false,
+      "employee": {
+        "employeeId": 1,
+        "employeeName": "Hậu chú bé đần"
+      },
+      "customer": {
+        "customerId": 1,
+        "customerName": "Trịnh Khải"
+      },
+      "service": {
+        "serviceId": 1,
+        "serviceName": "Villa 1"
+      }
+    }
+  ],
+  "customer": [
+    {
+      "customerId": 1,
+      "customerName": "Trịnh Khải"
+    },
+    {
+      "customerId": 2,
+      "customerName": "Tâm mõm"
+    },
+    {
+      "customerId": 3,
+      "customerName": "Hậu chú bé đần"
+    }
+  ],
+  "employee": [
+    {
+      "employeeId": 1,
+      "employeeName": "Hậu chú bé đần"
+    },
+    {
+      "employeeId": 2,
+      "employeeName": "Tâm mõm"
+    },
+    {
+      "employeeId": 3,
+      "employeeName": "Trịnh Khải"
+    }
+  ],
+  "service": [
+    {
+      "serviceId": 1,
+      "serviceName": "Villa 1"
+    },
+    {
+      "serviceId": 2,
+      "serviceName": "Room 1"
+    },
+    {
+      "serviceId": 3,
+      "serviceName": "House 1"
+    }
+  ]
+}
