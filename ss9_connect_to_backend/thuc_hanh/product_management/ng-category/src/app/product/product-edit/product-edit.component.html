@@ -41,8 +41,8 @@
 
       <label class="form-label" for="category">Category</label>
       <div class="mb-4">
-        <select id="category" class="form-control" formControlName="category" [compareWith]="compare">
-          <option *ngFor="let category of categoryList" [value]="category.categoryId" >{{category.categoryName}}</option>
+        <select id="category" class="form-control" formControlName="categoryDTO" [compareWith]="compare">
+          <option *ngFor="let category of categoryList" [ngValue]="category" >{{category.categoryName}}</option>
         </select>
         <div *ngIf="category?.touched">
           <small class="text-danger" *ngIf="category?.errors?.required">Tên dịch vụ không được để trống.</small>

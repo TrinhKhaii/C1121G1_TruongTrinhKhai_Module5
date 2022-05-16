@@ -18,6 +18,7 @@ export class ProductEditComponent implements OnInit {
   productDelete: Product;
   nameDelete: string;
   categoryList: Category[];
+
   constructor(
     private productService: ProductService,
     private categoryService: CategoryService,
@@ -27,20 +28,16 @@ export class ProductEditComponent implements OnInit {
     this.activatedRoute.paramMap.subscribe((paramMap: ParamMap) => {
       this.id = +paramMap.get('id');
     });
-    this.productService.findById(this.id).subscribe((data) => {
-      this.product = data;
-      console.log(this.product);
-      this.productEditForm = new FormGroup({
-        id: new FormControl(this.product.id),
-        name: new FormControl(this.product.name, [Validators.required, Validators.maxLength(30)]),
-        manufacturer: new FormControl(this.product.manufacturer, [Validators.required, Validators.maxLength(30)]),
-        imageUrl: new FormControl(this.product.imageUrl, [Validators.required]),
-        categoryDTO: new FormControl(this.product.categoryDTO, [Validators.required])
-      });
+    this.productEditForm = new FormGroup({
+      id: new FormControl(''),
+      name: new FormControl('', [Validators.required, Validators.maxLength(30)]),
+      manufacturer: new FormControl('', [Validators.required, Validators.maxLength(30)]),
+      imageUrl: new FormControl('', [Validators.required]),
+      categoryDTO: new FormControl('', [Validators.required])
     });
   }
 
-  compare(a: Category, b: Category) {
+  compare(a: Category, b: Category): boolean {
     return a && b ? a.categoryId === b.categoryId : a === b;
   }
 
@@ -59,6 +56,10 @@ export class ProductEditComponent implements OnInit {
 
   ngOnInit(): void {
     this.getCategoryList();
+    this.productService.findById(this.id).subscribe((data) => {
+      this.product = data;
+      this.productEditForm.patchValue(this.product);
+    });
   }
 
   getCategoryList() {

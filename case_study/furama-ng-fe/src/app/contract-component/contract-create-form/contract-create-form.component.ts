@@ -4,6 +4,8 @@ import {Customer} from "../../model/customer";
 import {ContractService} from "../../service/contract.service";
 import {Employee} from "../contract-model/employee";
 import {Service} from "../contract-model/service";
+import {Contract} from "../contract-model/contract";
+import {ActivatedRoute, Router} from "@angular/router";
 
 @Component({
   selector: 'app-contract-create-form',
@@ -17,17 +19,38 @@ export class ContractCreateFormComponent implements OnInit {
 
   serviceList: Service[] = [];
 
+  // @ts-ignore
+  contract: Contract;
+
   contractForm = new FormGroup({
     contractCode: new FormControl('', [Validators.required, Validators.pattern('HD-\\d{4}')]),
     contractStartDate: new FormControl('', [Validators.required]),
     contractEndDate: new FormControl('', [Validators.required]),
     contractDeposit: new FormControl('', [Validators.required, Validators.min(0)]),
+    contractTotal: new FormControl('', [Validators.required, Validators.min(0)]),
     employee: new FormControl('', [Validators.required]),
     customer: new FormControl('', [Validators.required]),
     service: new FormControl('', [Validators.required])
   });
 
-  constructor(private contractService: ContractService) {
+  constructor(private contractService: ContractService, private router: Router) {
+    this.getCustomerList();
+    this.getEmployeeList();
+    this.getServiceList()
+    this.contractForm = new FormGroup({
+      contractCode: new FormControl('', [Validators.required, Validators.pattern('HD-\\d{4}')]),
+      contractStartDate: new FormControl('', [Validators.required]),
+      contractEndDate: new FormControl('', [Validators.required]),
+      contractDeposit: new FormControl('', [Validators.required, Validators.min(0)]),
+      contractTotalMoney: new FormControl('', [Validators.required, Validators.min(0)]),
+      employee: new FormControl('', [Validators.required]),
+      customer: new FormControl('', [Validators.required]),
+      service: new FormControl('', [Validators.required])
+    });
+  }
+
+  ngOnInit(): void {
+
   }
 
   compare(a: any, b: any) {
@@ -37,19 +60,21 @@ export class ContractCreateFormComponent implements OnInit {
    getCustomerList() {
     this.contractService.getCustomerList().subscribe((res: Customer[]) => {
       this.customerList = res;
-      console.log(this.customerList)
+      this.contractForm.controls['customer'].setValue(this.customerList[0]);
     });
   };
 
   getEmployeeList() {
     this.contractService.getEmployeeList().subscribe((res: Employee[]) => {
       this.employeeList = res;
+      this.contractForm.controls['employee'].setValue(this.employeeList[0]);
     });
   };
 
   getServiceList() {
     this.contractService.getServiceList().subscribe((res: Service[]) => {
       this.serviceList = res;
+      this.contractForm.controls['service'].setValue(this.serviceList[0]);
     })
   }
 
@@ -70,6 +95,10 @@ export class ContractCreateFormComponent implements OnInit {
     return this.contractForm.get('contractDeposit');
   }
 
+  get contractTotalMoney() {
+    return this.contractForm.get('contractTotalMoney');
+  }
+
   get employee() {
     return this.contractForm.get('employee');
   }
@@ -82,22 +111,12 @@ export class ContractCreateFormComponent implements OnInit {
     return this.contractForm.get('service');
   }
 
-  ngOnInit(): void {
-    this.getCustomerList();
-    this.getEmployeeList();
-    this.getServiceList()
-    this.contractForm = new FormGroup({
-      contractCode: new FormControl('', [Validators.required, Validators.pattern('HD-\\d{4}')]),
-      contractStartDate: new FormControl('', [Validators.required]),
-      contractEndDate: new FormControl('', [Validators.required]),
-      contractDeposit: new FormControl('', [Validators.required, Validators.min(0)]),
-      employee: new FormControl(this.employeeList[0], [Validators.required]),
-      customer: new FormControl(this.customerList[0], [Validators.required]),
-      service: new FormControl(this.serviceList[0], [Validators.required])
-    });
-  }
-
   submit() {
-
+    this.contract = this.contractForm.value;
+    console.log(this.contract)
+    this.contractService.saveContract(this.contract).subscribe(res => {
+      this.contractService.getAll();
+      this.router.navigate(['contract-list']);
+    })
   }
 }

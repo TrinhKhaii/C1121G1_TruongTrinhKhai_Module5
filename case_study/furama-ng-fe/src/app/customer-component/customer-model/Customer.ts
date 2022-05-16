@@ -1,7 +1,9 @@
-export interface ICustomer {
+import {CustomerType} from "./CustomerType";
+
+export interface Customer {
   customerId: number,
   customerCode: string,
-  customerName: string,
+  name: string,
   gender: string,
   dayOfBirth: string,
   idCard: string,
@@ -9,5 +11,5 @@ export interface ICustomer {
   email: string,
   address: string,
   deleteFlag: boolean,
-  customerType: string
+  customerType: CustomerType
 }

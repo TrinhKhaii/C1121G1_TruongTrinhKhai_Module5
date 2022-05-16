@@ -16,6 +16,7 @@ export class ProductListComponent implements OnInit {
   constructor(private productService: ProductService) { }
 
   ngOnInit(): void {
+    console.log("%cBỏ đê thầy ei", "color: red; font-size: xxx-large");
     this.getAllProduct(this.searchName);
   }
 
@@ -27,6 +28,8 @@ export class ProductListComponent implements OnInit {
       this.totalPages = products.totalPages;
       // @ts-ignore
       this.pageNumber = products.pageable.pageNumber;
+    }, error => {
+      this.products = [];
     });
   }
 

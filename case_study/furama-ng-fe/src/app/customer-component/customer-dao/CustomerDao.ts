@@ -1,7 +1,7 @@
-import {ICustomer} from "../customer-model/ICustomer";
+import {Customer} from "../customer-model/Customer";
 
 export class CustomerDao {
-  public static customerList: ICustomer[] = [
+  public static customerList: Customer[] = [
     {
       customerId: 1,
       customerCode: "KH-001",

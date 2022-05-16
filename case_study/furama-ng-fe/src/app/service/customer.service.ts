@@ -1,5 +1,11 @@
 import {Injectable, OnInit} from '@angular/core';
-import {Customer} from "../model/customer";
+
+import {HttpClient} from "@angular/common/http";
+import {Observable} from "rxjs";
+import {CustomerType} from "../customer-component/customer-model/CustomerType";
+import {Customer} from "../customer-component/customer-model/Customer";
+
+const API_URL = "http://localhost:8080/api/customer";
 
 @Injectable({
   providedIn: 'root'
@@ -7,27 +13,33 @@ import {Customer} from "../model/customer";
 export class CustomerService implements OnInit{
   customerList: Array<Customer> = [];
 
-  constructor() {
-    this.customerList.push(new Customer(1, "KH-001", "Trương Trịnh Khải", "Nam", "21/12/2001", "48201123321", "0901960777", "truongtrinhkhaidng@gmail.com", "21 Nguyễn Khang", false, "Diamond"));
+  constructor(private http: HttpClient) {
   }
 
   ngOnInit(): void {
   }
 
-  getList() {
-    return this.customerList;
+  getList(searchName: string, page: number): Observable<Customer[]> {
+    return this.http.get<Customer[]>(API_URL + '/customer_list?page=' + page + '&searchVal=' + searchName);
   }
 
-  addCustomer(event: any) {
-    this.customerList.push(event);
+  getGenderList(): Observable<string[]> {
+    return this.http.get<string[]>(API_URL + '/gender_list')
   }
 
-  findById(id: number) {
-    for (let customer of this.customerList) {
-      if (customer.customerId == id) {
-        return customer;
-      }
-    }
-    return null;
+  getCustomerTypeList(): Observable<CustomerType[]> {
+    return this.http.get<CustomerType[]>(API_URL + '/customer_type_list');
+  }
+
+  findCustomerById(id: number): Observable<Customer> {
+    return this.http.get<Customer>(API_URL + '/' + id);
+  }
+
+  saveCustomer(customer: Customer): Observable<Customer> {
+    return this.http.post<Customer>(API_URL + '/save', customer);
+  }
+
+  deleteCustomer(customer: Customer): Observable<Customer> {
+    return this.http.patch<Customer>(API_URL + '/delete', customer);
   }
 }

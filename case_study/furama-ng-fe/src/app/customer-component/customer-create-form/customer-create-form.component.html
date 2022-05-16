@@ -22,7 +22,7 @@
       </div>
       <div class="form-group mb-4">
         <div class="form-outline">
-          <input type="text" id="customerName" class="form-control" formControlName="customerName">
+          <input type="text" id="customerName" class="form-control" formControlName="name">
           <label class="form-label" for="customerName">Họ Tên<span class="text-danger">(*)</span></label>
         </div>
         <div *ngIf="customerName?.touched">
@@ -33,7 +33,7 @@
       <label class="form-label" for="gender">Giới tính</label>
       <div class="mb-4">
         <select id="gender" class="form-control" formControlName="gender">
-          <option *ngFor="let gender of genderList" value="{{gender}}" >{{gender}}</option>
+          <option *ngFor="let gender of genderList" [ngValue]="gender" >{{gender}}</option>
         </select>
         <div *ngIf="gender?.touched">
           <small class="text-danger" *ngIf="gender?.errors?.['required']">Giới tính không được để trống.</small>
@@ -96,7 +96,7 @@
       <label class="form-label" for="customerType">Loại</label>
       <div class="mb-4">
         <select id="customerType" class="form-control" formControlName="customerType">
-          <option *ngFor="let customerType of customerTypeList" value="{{customerType}}" >{{customerType}}</option>
+          <option *ngFor="let customerType of customerTypeList" [ngValue]="customerType" >{{customerType.customerTypeName}}</option>
         </select>
         <div *ngIf="customerType?.touched">
           <small class="text-danger" *ngIf="customerType?.errors?.['required']">Loại không được để trống.</small>

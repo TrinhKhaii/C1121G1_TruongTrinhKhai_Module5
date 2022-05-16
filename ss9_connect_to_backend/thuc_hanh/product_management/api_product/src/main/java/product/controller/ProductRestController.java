@@ -41,7 +41,7 @@ public class ProductRestController {
         String searchManufacturerValue = searchManufacturer.orElse("");
         Page<Product> productPage = iProductService.findAll(searchNameValue, searchManufacturerValue, pageable);
         if (productPage.isEmpty()) {
-            return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
         }
         return new ResponseEntity<>(productPage, HttpStatus.OK);
     }

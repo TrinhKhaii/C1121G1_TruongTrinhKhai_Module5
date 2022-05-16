@@ -4,7 +4,7 @@ import {CustomerCreateFormComponent} from "./customer-create-form/customer-creat
 import {CustomerListComponent} from "./customer-list/customer-list.component";
 import {CustomerEditFormComponent} from "./customer-edit-form/customer-edit-form.component";
 import {RouterModule} from "@angular/router";
-import {ReactiveFormsModule} from "@angular/forms";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {HttpClientModule} from "@angular/common/http";
 import {CustomerRoutingModule} from "./customer-routing.module";
 
@@ -16,12 +16,13 @@ import {CustomerRoutingModule} from "./customer-routing.module";
     CustomerCreateFormComponent,
     CustomerEditFormComponent
   ],
-  imports: [
-    CommonModule,
-    RouterModule,
-    ReactiveFormsModule,
-    HttpClientModule,
-    CustomerRoutingModule
-  ]
+    imports: [
+        CommonModule,
+        RouterModule,
+        ReactiveFormsModule,
+        HttpClientModule,
+        CustomerRoutingModule,
+        FormsModule
+    ]
 })
 export class CustomerModule { }

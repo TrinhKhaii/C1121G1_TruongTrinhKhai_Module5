@@ -22,8 +22,8 @@
   </tr>
   </thead>
   <tbody>
-  <tr *ngFor="let contract of contractList">
-    <td>{{contract.contractId}}</td>
+  <tr *ngFor="let contract of contractList, index as i">
+    <td>{{i + 1}}</td>
     <td>{{contract.contractCode}}</td>
     <td>{{contract.contractStartDate}}</td>
     <td>{{contract.contractEndDate}}</td>
