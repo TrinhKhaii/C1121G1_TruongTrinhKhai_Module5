@@ -1,0 +1,39 @@
+{
+  "todo": [
+    {
+      "id": 1,
+      "content": "tiki-lazada",
+      "complete": false
+    },
+    {
+      "id": 2,
+      "content": "taka-lazada",
+      "complete": false
+    },
+    {
+      "id": 3,
+      "content": "dasdas",
+      "complete": false
+    },
+    {
+      "id": 4,
+      "content": "asdasd",
+      "complete": false
+    },
+    {
+      "id": 5,
+      "content": "adsa",
+      "complete": true
+    },
+    {
+      "id": 6,
+      "content": "asdasd",
+      "complete": true
+    },
+    {
+      "id": 7,
+      "content": "HIHI",
+      "complete": false
+    }
+  ]
+}

@@ -2,12 +2,32 @@
   Todo App
 </h2>
 <div class="col-md-8 offset-md-2">
-  <input type="text" class="form-control" [formControl]="content" (change)="change()">
-  <ul>
-    <li (click)="toggleTodo(i)"
-        [class.complete]="todo.complete"
-        *ngFor="let todo of todos; index as i">
-      {{todo.content}}
-    </li>
-  </ul>
+  <form [formGroup]="todoForm" (ngSubmit)="submit()">
+    <input type="text" class="form-control" formControlName="content" >
+    <div class="modal-footer">
+      <input type="submit" class="btn btn-success" value="Thêm mới">
+    </div>
+  </form>
+  <table style="border: 1px solid black">
+    <tr>
+      <th>ID</th>
+      <th>Content</th>
+      <th>Action</th>
+    </tr>
+    <tr *ngFor="let todo of todos">
+      <td [class.complete]="todo.complete">{{todo.id}}</td>
+      <td [class.complete]="todo.complete">{{todo.content}}</td>
+      <td>
+        <button (click)="delete(todo.id)">Delete</button>
+      </td>
+    </tr>
+  </table>
+  <!--  <ul>-->
+  <!--    <li (click)="toggleTodo(i)"-->
+  <!--        [class.complete]="todo.complete"-->
+  <!--        *ngFor="let todo of todos; index as i">-->
+  <!--      {{i + 1}}-->
+  <!--      {{todo.content}}-->
+  <!--    </li>-->
+  <!--  </ul>-->
 </div>
