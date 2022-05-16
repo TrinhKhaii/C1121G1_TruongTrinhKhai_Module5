@@ -38,6 +38,16 @@
           <small class="text-danger" *ngIf="imageUrl?.errors?.required">Link ảnh không được để trống.</small>
         </div>
       </div>
+
+      <label class="form-label" for="category">Category</label>
+      <div class="mb-4">
+        <select id="category" class="form-control" formControlName="category" [compareWith]="compare">
+          <option *ngFor="let category of categoryList" [value]="category.categoryId" >{{category.categoryName}}</option>
+        </select>
+        <div *ngIf="category?.touched">
+          <small class="text-danger" *ngIf="category?.errors?.required">Tên dịch vụ không được để trống.</small>
+        </div>
+      </div>
     </div>
     <div class="modal-footer">
       <input type="button" (click)="sendNameProduct(nameValue)" class="btn btn-danger" value="Xóa" data-mdb-toggle="modal" data-mdb-target="#deleteModal">

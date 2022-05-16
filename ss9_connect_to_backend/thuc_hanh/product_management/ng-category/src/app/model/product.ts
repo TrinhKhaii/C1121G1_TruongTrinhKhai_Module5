@@ -5,5 +5,5 @@ export interface Product {
   name: string;
   manufacturer: string;
   imageUrl: string;
-  category: Category;
+  categoryDTO: Category;
 }

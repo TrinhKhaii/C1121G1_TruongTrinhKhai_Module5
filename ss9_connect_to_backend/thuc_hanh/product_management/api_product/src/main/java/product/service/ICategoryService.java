@@ -17,4 +17,6 @@ public interface ICategoryService {
     Optional<Category> findById(Integer id);
 
     void save(Category category);
+
+    void delete(Integer id);
 }

@@ -2,7 +2,9 @@ package product.controller;
 
 import org.springframework.beans.BeanUtils;
 import org.springframework.validation.BindingResult;
+import product.dto.CategoryDTO;
 import product.dto.ProductDTO;
+import product.model.Category;
 import product.model.Product;
 import product.service.IProductService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -54,7 +56,10 @@ public class ProductRestController {
             return new ResponseEntity<>(errorMap, HttpStatus.INTERNAL_SERVER_ERROR);
         }
         Product product = new Product();
+        Category category = new Category();
         BeanUtils.copyProperties(productDTO, product);
+        BeanUtils.copyProperties(productDTO.getCategoryDTO(), category);
+        product.setCategory(category);
         iProductService.save(product);
         return new ResponseEntity<>(HttpStatus.OK);
     }
@@ -63,8 +68,11 @@ public class ProductRestController {
     public ResponseEntity<ProductDTO> getProductEdit(@PathVariable("id") Integer id) {
         Product product = iProductService.findById(id).orElse(null);
         ProductDTO productDTO = new ProductDTO();
+        CategoryDTO categoryDTO = new CategoryDTO();
         if (product != null) {
             BeanUtils.copyProperties(product, productDTO);
+            BeanUtils.copyProperties(product.getCategory(), categoryDTO);
+            productDTO.setCategoryDTO(categoryDTO);
             return new ResponseEntity<>(productDTO, HttpStatus.OK);
         }
         return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);

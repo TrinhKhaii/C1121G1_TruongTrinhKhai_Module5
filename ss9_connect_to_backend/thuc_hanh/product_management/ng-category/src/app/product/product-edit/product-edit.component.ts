@@ -3,7 +3,8 @@ import {FormControl, FormGroup, Validators} from '@angular/forms';
 import {ProductService} from '../../service/product.service';
 import {ActivatedRoute, ParamMap, Router} from '@angular/router';
 import {Product} from '../../model/product';
-import {window} from 'rxjs/operators';
+import {Category} from '../../model/category';
+import {CategoryService} from '../../service/category.service';
 
 @Component({
   selector: 'app-product-edit',
@@ -16,8 +17,10 @@ export class ProductEditComponent implements OnInit {
   product: Product;
   productDelete: Product;
   nameDelete: string;
+  categoryList: Category[];
   constructor(
     private productService: ProductService,
+    private categoryService: CategoryService,
     private activatedRoute: ActivatedRoute,
     private router: Router
   ) {
@@ -26,14 +29,21 @@ export class ProductEditComponent implements OnInit {
     });
     this.productService.findById(this.id).subscribe((data) => {
       this.product = data;
+      console.log(this.product);
       this.productEditForm = new FormGroup({
         id: new FormControl(this.product.id),
         name: new FormControl(this.product.name, [Validators.required, Validators.maxLength(30)]),
         manufacturer: new FormControl(this.product.manufacturer, [Validators.required, Validators.maxLength(30)]),
-        imageUrl: new FormControl(this.product.imageUrl, [Validators.required])
+        imageUrl: new FormControl(this.product.imageUrl, [Validators.required]),
+        categoryDTO: new FormControl(this.product.categoryDTO, [Validators.required])
       });
     });
   }
+
+  compare(a: Category, b: Category) {
+    return a && b ? a.categoryId === b.categoryId : a === b;
+  }
+
   get name() {
     return this.productEditForm.get('name');
   }
@@ -43,8 +53,20 @@ export class ProductEditComponent implements OnInit {
   get imageUrl() {
     return this.productEditForm.get('imageUrl');
   }
+  get category() {
+    return this.productEditForm.get('categoryDTO');
+  }
 
   ngOnInit(): void {
+    this.getCategoryList();
+  }
+
+  getCategoryList() {
+    this.categoryService.getAll('').subscribe(res => {
+      // @ts-ignore
+      this.categoryList = res.content;
+      console.log(this.categoryList);
+    })
   }
 
   updateProduct() {

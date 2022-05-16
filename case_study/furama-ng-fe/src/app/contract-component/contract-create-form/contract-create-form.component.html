@@ -55,27 +55,27 @@
       <label class="form-label" for="employee">Nhân viên</label>
       <div class="mb-4">
         <select id="employee" class="form-control" formControlName="employee">
-          <option *ngFor="let employee of employeeList" value="{{employee}}" >{{employee}}</option>
+          <option *ngFor="let employee of employeeList" value="{{employee}}" >{{employee.employeeName}}</option>
         </select>
         <div *ngIf="employee?.touched">
           <small class="text-danger" *ngIf="employee?.errors?.['required']">Tên nhân viên không được để trống.</small>
         </div>
       </div>
 
-      <label class="form-label" for="employee">Khách hàng</label>
+      <label class="form-label" for="customer">Khách hàng</label>
       <div class="mb-4">
         <select id="customer" class="form-control" formControlName="customer" [compareWith]="compare">
-          <option *ngFor="let customer of customerList" value="{{customer}}" >{{customer}}</option>
+          <option *ngFor="let customer of customerList" value="{{customer}}" >{{customer.customerName}}</option>
         </select>
         <div *ngIf="customer?.touched">
           <small class="text-danger" *ngIf="customer?.errors?.['required']">Tên khách hàng không được để trống.</small>
         </div>
       </div>
 
-      <label class="form-label" for="employee">Dịch vụ</label>
+      <label class="form-label" for="service">Dịch vụ</label>
       <div class="mb-4">
         <select id="service" class="form-control" formControlName="service">
-          <option *ngFor="let service of serviceList" value="{{service}}" >{{service}}</option>
+          <option *ngFor="let service of serviceList" value="{{service}}" >{{service.serviceName}}</option>
         </select>
         <div *ngIf="service?.touched">
           <small class="text-danger" *ngIf="service?.errors?.['required']">Tên dịch vụ không được để trống.</small>

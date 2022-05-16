@@ -3,6 +3,7 @@ import {environment} from '../../environments/environment';
 import {HttpClient} from '@angular/common/http';
 import {Observable} from 'rxjs';
 import {Product} from '../model/product';
+import {Category} from '../model/category';
 
 const API_URL = `${environment.apiUrl}`;
 
@@ -13,7 +14,19 @@ export class CategoryService {
 
   constructor(private http: HttpClient) {}
 
-  getAll(searchName: string): Observable<Product[]> {
-    return this.http.get<Product[]>(API_URL + '/api/category&searchName=' + searchName);
+  getAll(searchName: string): Observable<Category[]> {
+    return this.http.get<Category[]>(API_URL + '/api/category?searchName=' + searchName);
+  }
+
+  saveCategory(category): Observable<Category> {
+    return this.http.post<Category>(API_URL + '/api/category/save', category);
+  }
+
+  findById(id: number): Observable<Category> {
+    return this.http.get<Category>(API_URL + '/api/category/edit/' + id);
+  }
+
+  deleteById(id: number): Observable<Category> {
+    return this.http.delete<Category>(API_URL + '/api/category/delete/' + id);
   }
 }

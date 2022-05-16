@@ -1,5 +1,7 @@
 package product.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.util.Set;
@@ -19,6 +21,7 @@ public class Category {
     private String categoryName;
 
     @OneToMany(mappedBy = "category")
+    @JsonBackReference
     private Set<Product> products;
 
     public Category() {
