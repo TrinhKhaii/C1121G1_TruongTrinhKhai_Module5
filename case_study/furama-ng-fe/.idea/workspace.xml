@@ -2,16 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e514079-3eff-47ff-9f71-da2ec0743788" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../ss6_angular_form/thuc-hanh/db.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss6_angular_form/thuc-hanh/src/app/model/todo.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss6_angular_form/thuc-hanh/src/app/service/todo.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/.idea/thuc-hanh.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/src/app/image-gallery/image-card/image-card.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/src/app/image-gallery/image-card/image-card.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/src/app/image-gallery/image-card/image-card.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/src/app/image-gallery/image-gallery.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/src/app/image-gallery/image-gallery.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/src/app/image-gallery/image-gallery.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/src/app/image-gallery/image-gallery.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/tslint.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/contract-component/contract-create-form/contract-create-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contract-component/contract-create-form/contract-create-form.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/contract-component/contract-list/contract-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contract-component/contract-list/contract-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/customer-component/customer-edit-form/customer-edit-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/customer-component/customer-edit-form/customer-edit-form.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/customer-component/customer-list/customer-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/customer-component/customer-list/customer-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/service-component/service-list/service-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/service-component/service-list/service-list.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ss6_angular_form/thuc-hanh/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss6_angular_form/thuc-hanh/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss6_angular_form/thuc-hanh/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss6_angular_form/thuc-hanh/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss6_angular_form/thuc-hanh/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss6_angular_form/thuc-hanh/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss6_angular_form/thuc-hanh/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss6_angular_form/thuc-hanh/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss6_angular_form/thuc-hanh/src/app/todo/todo.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss6_angular_form/thuc-hanh/src/app/todo/todo.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss6_angular_form/thuc-hanh/src/app/todo/todo.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss6_angular_form/thuc-hanh/src/app/todo/todo.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +140,7 @@
       <updated>1652067649465</updated>
       <workItem from="1652067651165" duration="58625000" />
       <workItem from="1652578024563" duration="33881000" />
-      <workItem from="1652693479262" duration="11258000" />
+      <workItem from="1652693479262" duration="15201000" />
     </task>
     <servers />
   </component>

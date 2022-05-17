@@ -43,10 +43,31 @@
       }
     },
     {
-      "contractCode": "HD-0006",
-      "contractStartDate": "2022-05-17",
+      "contractCode": "HD-0003",
+      "contractStartDate": "2022-05-18",
       "contractEndDate": "2022-05-20",
       "contractDeposit": "1000",
+      "contractTotalMoney": "12000",
+      "employee": {
+        "employeeId": 1,
+        "employeeName": "Hậu chú bé đần"
+      },
+      "customer": {
+        "customerId": 1,
+        "customerName": "Trịnh Khải"
+      },
+      "service": {
+        "serviceId": 1,
+        "serviceName": "Villa 1"
+      },
+      "id": 3
+    },
+    {
+      "contractCode": "HD-0003",
+      "contractStartDate": "2022-05-11",
+      "contractEndDate": "2022-05-15",
+      "contractDeposit": "1000",
+      "contractTotalMoney": "12000",
       "employee": {
         "employeeId": 2,
         "employeeName": "Tâm mõm"
@@ -59,7 +80,7 @@
         "serviceId": 3,
         "serviceName": "House 1"
       },
-      "id": 3
+      "id": 4
     }
   ],
   "customer": [

@@ -14,6 +14,7 @@ export class ContractListComponent implements OnInit {
   constructor(private contractService: ContractService) { }
 
   ngOnInit(): void {
+    console.log("%cBỏ đê thầy ei", "color: red; font-size: xxx-large");
     this.getAll();
   }
 

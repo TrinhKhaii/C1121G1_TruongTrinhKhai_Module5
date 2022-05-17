@@ -23,6 +23,7 @@ export class CustomerListComponent implements OnInit {
   constructor(private router: Router, private customerService: CustomerService) { }
 
   ngOnInit(): void {
+    console.log("%cBỏ đê thầy ei", "color: red; font-size: xxx-large");
     this.getAllCustomer('');
   }
 
