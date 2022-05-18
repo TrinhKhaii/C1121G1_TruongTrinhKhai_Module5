@@ -1,75 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4bb968ce-d0b1-488a-8985-0f0ca227c7cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../case_study/furama-ng-fe/src/app/templates-component/delete-modal/delete-modal.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../case_study/furama-ng-fe/src/app/templates-component/delete-modal/delete-modal.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../case_study/furama-ng-fe/src/app/templates-component/delete-modal/delete-modal.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../case_study/furama-ng-fe/src/app/templates-component/delete-modal/delete-modal.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/api_categoryy/src/main/java/category/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/api_categoryy/src/main/java/category/dto/ProductDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/api_categoryy/src/main/java/category/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/api_categoryy/src/main/java/category/repository/IProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/api_categoryy/src/main/java/category/service/IProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/api_categoryy/src/main/java/category/service/impl/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/api_product/src/main/java/product/controller/ProductRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/api_product/src/main/java/product/dto/ProductDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/api_product/src/main/java/product/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/api_product/src/main/java/product/repository/IProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/api_product/src/main/java/product/service/IProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/api_product/src/main/java/product/service/impl/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/browserslist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/e2e/protractor.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/e2e/src/app.e2e-spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/e2e/src/app.po.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/e2e/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/src/app/app-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/src/app/app.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/src/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/src/app/model/product.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/src/app/product/delete-modal/delete-modal.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/src/app/product/delete-modal/delete-modal.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/src/app/product/delete-modal/delete-modal.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/src/app/product/product-create/product-create.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/src/app/product/product-create/product-create.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/src/app/product/product-create/product-create.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/src/app/product/product-edit/product-edit.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/src/app/product/product-edit/product-edit.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/src/app/product/product-edit/product-edit.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/src/app/product/product-list/product-list.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/src/app/product/product-list/product-list.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/src/app/product/product-list/product-list.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/src/app/service/product.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/src/assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/src/environments/environment.prod.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/src/environments/environment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/src/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/src/polyfills.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/src/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/src/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/tsconfig.spec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss9_connect_to_backend/thuc_hanh/ng-category/tslint.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../case_study/furama-ng-fe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../case_study/furama-ng-fe/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../case_study/furama-ng-fe/src/app/templates-component/templates.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../case_study/furama-ng-fe/src/app/templates-component/templates.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss7_service_and_router/bai-tap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss7_service_and_router/bai-tap/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss7_service_and_router/thuc-hanh/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss7_service_and_router/thuc-hanh/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss7_service_and_router/thuc-hanh/src/app/youtube-player/youtube-player.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss7_service_and_router/thuc-hanh/src/app/youtube-player/youtube-player.component.ts" afterDir="false" />
-    </list>
+    <list default="true" id="4bb968ce-d0b1-488a-8985-0f0ca227c7cf" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,6 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/node_modules/protractor" />
@@ -167,6 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1652240376881</updated>
       <workItem from="1652240378173" duration="38305000" />
+      <workItem from="1652775536817" duration="32000" />
     </task>
     <servers />
   </component>

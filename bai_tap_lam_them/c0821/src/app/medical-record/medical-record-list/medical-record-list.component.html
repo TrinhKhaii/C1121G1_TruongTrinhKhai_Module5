@@ -1,0 +1,144 @@
+<header>
+  <!-- Navbar -->
+  <nav id="main-navbar" class="navbar navbar-expand-lg navbar-light bg-white">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Search form -->
+      <div class="navbar-nav ms-auto d-flex flex-row">
+        <input type="text" name="searchValue" placeholder="Name" [(ngModel)]="medicalRecordCodeSearchValue">
+        <select name="searchSelect" class="form-select" aria-label="Default select example" [(ngModel)]="searchSelect" >
+          <option selected value="1">Mã bệnh án</option>
+          <option value="2">Mã bệnh nhân</option>
+          <option value="3">Tên bệnh nhân</option>
+        </select>
+
+        <div class="navbar-nav ms-auto d-flex flex-row">
+          <input type="date" name="searchStartDateValue" placeholder="Start Date">
+          <input type="date" name="searchEndDateValue" placeholder="End Date">
+          <select name="searchDateSelect" class="form-select" aria-label="Default select example">
+            <option selected value="1">Ngày nhập viện</option>
+            <option value="2">Ngày xuất viện</option>
+          </select>
+        </div>
+
+        <button class=" border-0" id="search-addon" (click)="search()">Search</button>
+      </div>
+
+      <!-- Right links -->
+      <div class="navbar-nav ms-auto d-flex flex-row">
+        <button type="button" class="btn btn-danger me-3"
+                data-mdb-toggle="modal"
+                data-mdb-target="#modalDeleteMultiple">
+          Delete Multiple
+        </button>
+        <a type="button" class="btn btn-primary me-3" [routerLink]="['/medical-record/create']">
+          THÊM MỚI
+        </a>
+      </div>
+    </div>
+  </nav>
+</header>
+<!-- List -->
+<table class="table table-striped table-hover">
+  <thead class="bg-light">
+  <tr>
+    <th></th>
+    <th>STT</th>
+    <th>Mã bệnh án</th>
+    <th>Mã bệnh nhân</th>
+    <th>Tên bệnh nhân</th>
+    <th>Ngày nhập viện</th>
+    <th>Ngày ra viện</th>
+    <th>Lý do nhập viện</th>
+    <th></th>
+    <th></th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let medicalRecord of medicalRecordList | paginate : {itemsPerPage : 3 , currentPage :p}, index as i">
+    <td>
+      <input type="checkbox" (click)="addIdToDeleteList(medicalRecord.id)">
+    </td>
+    <td>{{i + 1}}</td>
+    <td>{{medicalRecord.medicalRecordCode}}</td>
+    <td>{{medicalRecord.patient.patientCode}}</td>
+    <td>{{medicalRecord.patient.patientName}}</td>
+    <td>{{medicalRecord.startDate | date: "dd/MM/yyyy"}}</td>
+    <td>{{medicalRecord.endDate | date: "dd/MM/yyyy"}}</td>
+    <td>{{medicalRecord.reason}}</td>
+    <td>
+      <a type="button" class="btn btn-link btn-sm btn-rounded edit_btn" [routerLink]="['/medical-record/edit', medicalRecord.id]">
+        Sửa
+      </a>
+    </td>
+    <td>
+      <a type="button" class="btn btn-danger btn-sm btn-rounded delete_btn" data-mdb-toggle="modal"
+         data-mdb-target="#deleteModal" (click)="sendMedicalRecordInfo(medicalRecord.id, medicalRecord.medicalRecordCode)">
+        Xóa
+      </a>
+    </td>
+  </tr>
+  </tbody>
+</table>
+
+<pagination-controls (pageChange)="p=$event"></pagination-controls>
+
+<!-- Delete Modal -->
+<div class="modal fade" id="deleteModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <input type="hidden" name="idDelete" id="idDelete">
+      <div class="modal-header">
+        <h5 class="modal-title">Xác nhận xóa</h5>
+        <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Bạn chắc chắn muốn xóa khách hàng <span class="text-danger">{{medicalRecordCodeDelete}}</span> ?</p>
+        <p class="text-warning">*Thao tác này sẽ không thể hoàn tác*</p>
+      </div>
+      <div class="modal-footer">
+        <button #closeModal type="button" class="btn btn-secondary" data-mdb-dismiss="modal" >Hủy</button>
+        <button type="button" class="btn btn-danger" id="delete_btn" (click)="deleteMedicalRecord(closeModal, successBtn)">Đồng ý</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<button [hidden]="true" #successBtn data-mdb-toggle="modal" data-mdb-target="#successModal"></button>
+<!--success modal-->
+<div id="successModal" class="modal fade">
+  <div class="modal-dialog modal-confirm modal-confirm-success">
+    <div class="modal-content">
+      <div class="modal-header modal-header-success justify-content-center">
+        <div class="icon-box">
+          <i class="material-icons">&#xE876;</i>
+        </div>
+        <button type="button" class="close" data-mdb-dismiss="modal" aria-hidden="true">&times;</button>
+      </div>
+      <div class="modal-body text-center">
+        <h4>Tuyệt!</h4>
+        <p>Xóa bệnh án thành công.</p>
+        <button type="button" class="btn btn-danger" id="delete_btnn" data-mdb-dismiss="modal"  >Đồng ý</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Xóa nhiều trường -->
+<div class="modal fade" tabindex="-1" id="modalDeleteMultiple">
+  <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Xác nhận</h5>
+          <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Bạn muốn xóa các bản ghi đã chọn?.</p>
+        </div>
+        <div class="modal-footer">
+          <button #closeMulDelModal type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Close</button>
+          <button type="submit" class="btn btn-primary" (click)="deleteMul(closeMulDelModal)">OK</button>
+        </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,33 @@
+{
+  "medical-record": [
+    {
+      "medicalRecordCode": "BA-003",
+      "startDate": "2022-05-19",
+      "endDate": "2022-05-21",
+      "reason": "Covid 19",
+      "patient": {
+        "id": 1,
+        "patientCode": "BN-001",
+        "patientName": "Nguyễn Văn A"
+      },
+      "id": 3
+    }
+  ],
+  "patient": [
+    {
+      "id": 1,
+      "patientCode": "BN-001",
+      "patientName": "Nguyễn Văn A"
+    },
+    {
+      "id": 2,
+      "patientCode": "BN-002",
+      "patientName": "Nguyễn Văn B"
+    },
+    {
+      "id": 3,
+      "patientCode": "BN-003",
+      "patientName": "Nguyễn Văn C"
+    }
+  ]
+}

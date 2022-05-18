@@ -2,14 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3cecbb5-672b-4938-8613-3b3754b3b95f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/contract-component/contract-create-form/contract-create-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/contract-component/contract-create-form/contract-create-form.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/contract-component/contract-list/contract-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/contract-component/contract-list/contract-list.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-edit-form/customer-edit-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-edit-form/customer-edit-form.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-list/customer-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/customer-component/customer-list/customer-list.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/service-component/service-list/service-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/src/app/service-component/service-list/service-list.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/c0821/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/c0821/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/c0821/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/c0821/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/c0821/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/c0821/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/c0821/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/c0821/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/c0821/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/c0821/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/c0821/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/c0821/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/c0821/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/c0821/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/c0821/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/c0821/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/c0821/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/c0821/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/c0821/src/app/data/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/c0821/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/c0821/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/c0821/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/c0821/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/c0821/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/c0821/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/c0821/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/c0821/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/c0821/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/c0821/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/c0821/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/c0821/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/c0821/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_tap_lam_them/bai_1/fe-ng/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss8_modules_and_dependency_injection/thuc-hanh/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +118,7 @@
       <updated>1651992529029</updated>
       <workItem from="1651992530258" duration="4506000" />
       <workItem from="1652703436976" duration="8030000" />
+      <workItem from="1652796941811" duration="65000" />
     </task>
     <servers />
   </component>
