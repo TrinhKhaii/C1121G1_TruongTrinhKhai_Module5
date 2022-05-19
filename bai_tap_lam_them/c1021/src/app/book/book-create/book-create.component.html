@@ -1,1 +1,113 @@
-<p>book-create works!</p>
+<div class=" col-4 mx-auto">
+  <form [formGroup]="bookForm" (ngSubmit)="submit(successBtn, errorBtn)">
+    <div class="modal-header">
+      <h5 class="modal-title">Thêm sách</h5>
+    </div>
+    <div class="modal-body">
+      <div class="mb-3">
+        <label for="bookCode" class="form-label">Mã sách<span class="text-danger">(*)</span></label>
+        <input type="text" class="form-control" id="bookCode" formControlName="bookCode">
+        <div *ngIf="bookCode?.touched">
+          <small class="text-danger" *ngIf="bookCode?.errors?.required">Mã sách không được để trống.</small>
+          <small class="text-danger" *ngIf="bookCode?.errors?.pattern" >Mã sách phải có định dạng S-XXXX, trong đó X là số tự nhiên.</small>
+        </div>
+        <div *ngIf="bookCode.valid">
+          <small class="text-success">Hợp lệ.</small>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label for="bookName" class="form-label">Tên sách<span class="text-danger">(*)</span></label>
+        <input type="text" class="form-control" id="bookName" formControlName="bookName">
+        <div *ngIf="bookName?.touched">
+          <small class="text-danger" *ngIf="bookName?.errors?.required">Tên sách không được để trống.</small>
+          <small class="text-danger" *ngIf="bookName?.errors?.maxlength" >Tên sách có tối đa 30 ký tự.</small>
+        </div>
+        <div *ngIf="bookName.valid">
+          <small class="text-success">Hợp lệ.</small>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label for="author" class="form-label">Tác giả<span class="text-danger">(*)</span></label>
+        <input type="text" class="form-control" id="author" formControlName="author">
+        <div *ngIf="author?.touched">
+          <small class="text-danger" *ngIf="author?.errors?.required">Tên tác giả không được để trống.</small>
+          <small class="text-danger" *ngIf="author?.errors?.maxlength" >Tên tác giả có tối đa 30 ký tự.</small>
+        </div>
+        <div *ngIf="author.valid">
+          <small class="text-success">Hợp lệ.</small>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label for="description" class="form-label">Mô tả<span class="text-danger">(*)</span></label>
+        <input type="text" class="form-control" id="description" formControlName="description">
+        <div *ngIf="description?.touched">
+          <small class="text-danger" *ngIf="description?.errors?.required">Mô tả không được để trống.</small>
+          <small class="text-danger" *ngIf="description?.errors?.maxlength">Mô tả có tối đa 30 ký tự.</small>
+        </div>
+        <div *ngIf="description.valid">
+          <small class="text-success">Hợp lệ.</small>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label for="quantity" class="form-label">Số lượng<span class="text-danger">(*)</span></label>
+        <input type="text" class="form-control" id="quantity" formControlName="quantity">
+        <div *ngIf="quantity?.touched">
+          <small class="text-danger" *ngIf="quantity?.errors?.required">Số lượng không được để trống.</small>
+          <small class="text-danger" *ngIf="quantity?.errors?.maxlength">Số lượng phải lớn hơn 0.</small>
+        </div>
+        <div *ngIf="quantity.valid">
+          <small class="text-success">Hợp lệ.</small>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="modal-footer">
+      <input [disabled]="!bookForm.valid" type="submit" class="btn btn-primary" value="Thêm mới">
+    </div>
+  </form>
+</div>
+
+<button [hidden]="true" #successBtn data-mdb-toggle="modal" data-mdb-target="#successModal"></button>
+<!--success modal-->
+<div id="successModal" class="modal fade">
+  <div class="modal-dialog modal-confirm modal-confirm-success">
+    <div class="modal-content">
+      <div class="modal-header modal-header-success justify-content-center">
+        <div class="icon-box">
+          <i class="material-icons">&#xE876;</i>
+        </div>
+        <button type="button" class="close" data-mdb-dismiss="modal" aria-hidden="true">&times;</button>
+      </div>
+      <div class="modal-body text-center">
+        <h4>Tuyệt!</h4>
+        <p>Thêm sách thành công.</p>
+        <button type="button" class="btn btn-danger" id="delete_btn" data-mdb-dismiss="modal" [routerLink]="['/book']" >Đồng ý</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<button [hidden]="true" #errorBtn data-mdb-toggle="modal" data-mdb-target="#errorModal"></button>
+<!--error modal-->
+<div id="errorModal" class="modal fade">
+  <div class="modal-dialog modal-confirm modal-confirm-danger">
+    <div class="modal-content">
+      <div class="modal-header modal-header-danger justify-content-center">
+        <div class="icon-box">
+          <i class="material-icons">&#xE5CD;</i>
+        </div>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+      </div>
+      <div class="modal-body text-center">
+        <h4>Ooops!</h4>
+        <p>Cần phải nhập đầy đủ thông tin.</p>
+        <button class="btn btn-success" data-mdb-dismiss="modal">Try Again</button>
+      </div>
+    </div>
+  </div>
+</div>

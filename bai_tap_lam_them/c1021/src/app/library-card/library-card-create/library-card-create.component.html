@@ -8,7 +8,7 @@
         <label for="libraryCardCode" class="form-label">Mã mượn sách<span class="text-danger">(*)</span></label>
         <input type="text" class="form-control" id="libraryCardCode" formControlName="libraryCardCode">
         <div *ngIf="libraryCardCode?.touched">
-          <small class="text-danger" *ngIf="libraryCardCode?.errors?.required">Mã bệnh án không được để trống.</small>
+          <small class="text-danger" *ngIf="libraryCardCode?.errors?.required">Mã mượn sách không được để trống.</small>
 <!--          <small class="text-danger" *ngIf="medicalRecordCode?.errors?.pattern" >Mã bệnh án phải có định dạng BA-XXXX, trong đó X là số tự nhiên.</small>-->
         </div>
         <div *ngIf="libraryCardCode.valid">
@@ -18,13 +18,7 @@
 
       <div class="mb-3">
         <label for="book" class="form-label">Tên sách<span class="text-danger">(*)</span></label>
-        <input type="text" class="form-control" id="book" formControlName="book" [(ngModel)]="bookBorrowName" disabled>
-<!--        <div *ngIf="book?.touched">-->
-<!--          <small class="text-danger" *ngIf="book?.errors?.required">Tên sách không được để trống.</small>-->
-<!--        </div>-->
-<!--        <div *ngIf="book.valid">-->
-<!--          <small class="text-success">Hợp lệ.</small>-->
-<!--        </div>-->
+        <input type="text" class="form-control" id="book" value="{{bookBorrow.bookName}}" disabled>
       </div>
 
       <label class="form-label" for="student">Học sinh</label>
@@ -86,7 +80,7 @@
       </div>
       <div class="modal-body text-center">
         <h4>Tuyệt!</h4>
-        <p>Tạo mới bệnh án thành công.</p>
+        <p>Mược sách thành công.</p>
         <button type="button" class="btn btn-danger" id="delete_btn" data-mdb-dismiss="modal" [routerLink]="['/library-card']" >Đồng ý</button>
       </div>
     </div>

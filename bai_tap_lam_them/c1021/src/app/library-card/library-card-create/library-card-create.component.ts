@@ -18,7 +18,6 @@ export class LibraryCardCreateComponent implements OnInit {
   libraryCardForm: FormGroup;
   studentList: Student[] = [];
   bookBorrow: Book;
-  bookBorrowName: string;
   libraryCardSave: LibraryCard;
 
   constructor(private activatedRoute: ActivatedRoute,
@@ -31,8 +30,6 @@ export class LibraryCardCreateComponent implements OnInit {
       console.log(this.id);
       this.bookService.findById(this.id).subscribe(res => {
         this.bookBorrow = res;
-        this.bookBorrowName = this.bookBorrow.bookName;
-        console.log(this.bookBorrow);
         this.libraryCardForm = new FormGroup({
           libraryCardCode: new FormControl('', [Validators.required]),
           book: new FormControl(this.bookBorrow, [Validators.required]),
@@ -43,10 +40,6 @@ export class LibraryCardCreateComponent implements OnInit {
         console.log( this.libraryCardForm);
       })
     });
-
-
-
-    console.log(this.libraryCardForm);
   }
 
   ngOnInit(): void {
@@ -79,11 +72,16 @@ export class LibraryCardCreateComponent implements OnInit {
 
   submit(successBtn: HTMLButtonElement) {
     this.libraryCardSave = this.libraryCardForm.value;
-    this.libraryCardService.save(this.libraryCardSave).subscribe(() => {
-      console.log("Add success!");
-      successBtn.click();
-
+    this.bookBorrow.quantity = this.bookBorrow.quantity - 1;
+    this.bookService.update(this.bookBorrow.id, this.bookBorrow).subscribe(() => {
+      console.log("Update success!");
+      this.libraryCardSave.book.quantity = this.bookBorrow.quantity;
+      this.libraryCardService.save(this.libraryCardSave).subscribe(() => {
+        console.log("Add success!");
+        successBtn.click();
+      })
     })
+
   }
 
   validateStartDateBefore() {

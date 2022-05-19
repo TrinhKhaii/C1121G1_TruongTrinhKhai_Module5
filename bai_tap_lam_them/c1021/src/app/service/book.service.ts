@@ -10,11 +10,19 @@ export class BookService {
 
   constructor(private http: HttpClient) { }
 
-  findAll(): Observable<Book[]> {
-    return this.http.get<Book[]>('http://localhost:3000/book');
+  findAll(searchValue: string): Observable<Book[]> {
+    return this.http.get<Book[]>('http://localhost:3000/book?bookName_like=' + searchValue);
   }
 
   findById(id: number): Observable<Book> {
     return this.http.get<Book>('http://localhost:3000/book/' + id);
+  }
+
+  update(id: number, book: Book): Observable<Book> {
+    return this.http.patch<Book>('http://localhost:3000/book/' + id, book);
+  }
+
+  save(book: Book): Observable<Book> {
+    return this.http.post<Book>('http://localhost:3000/book', book);
   }
 }
