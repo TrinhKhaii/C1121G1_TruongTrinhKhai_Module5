@@ -1,0 +1,126 @@
+{
+  "article": [
+    {
+      "id": 1,
+      "name": "Cần bán gấp",
+      "seller": "Cá nhân",
+      "category": {
+        "id": 1,
+        "categoryName": "Nhà đất"
+      },
+      "postDate": "2022-05-19",
+      "address": "Da Nang",
+      "area": "100",
+      "price": "100000",
+      "articleType": "Cần bán",
+      "direction": "Đông",
+      "content": "tiki lazada",
+      "imageUrl": "https://www.maunhadepvn.net/wp-content/uploads/thiet-ke-nha-cap-4-co-gac-lung-5-1.jpg",
+      "status": "Đang rao"
+    },
+    {
+      "name": "Cần bán nè",
+      "seller": "Công ty",
+      "postDate": "2022-05-20",
+      "category": {
+        "id": 2,
+        "categoryName": "Căn hộ"
+      },
+      "address": "Da Nang",
+      "area": "100",
+      "price": "50000",
+      "articleType": "Cần bán",
+      "direction": "Tây",
+      "content": "Thì ra mùa xuân hoa nở là vì em <3",
+      "imageUrl": "https://cdn.tgdd.vn/Products/Images/42/250728/iphone-13-pro-max-xanh-la-thumb-600x600.jpg",
+      "status": "Đang rao",
+      "id": 2
+    },
+    {
+      "name": "Cho thuê căn hộ",
+      "seller": "Công ty",
+      "postDate": "2022-05-20",
+      "category": {
+        "id": 2,
+        "categoryName": "Căn hộ"
+      },
+      "address": "Da Nang",
+      "area": "100",
+      "price": "50000",
+      "articleType": "Cho thuê",
+      "direction": "Bắc",
+      "content": "Thì ra mùa xuân hoa nở là vì em <3",
+      "imageUrl": "https://cdn.tgdd.vn/Products/Images/42/250728/iphone-13-pro-max-xanh-la-thumb-600x600.jpg",
+      "status": "Cần thuê",
+      "id": 3
+    },
+    {
+      "name": "Cho thuê căn hộ 3",
+      "seller": "Công ty",
+      "postDate": "2022-05-20",
+      "category": {
+        "id": 2,
+        "categoryName": "Căn hộ"
+      },
+      "address": "Da Nang",
+      "area": "100",
+      "price": "50000",
+      "articleType": "Cho thuê",
+      "direction": "Bắc",
+      "content": "Thì ra mùa xuân hoa nở là vì em <3",
+      "imageUrl": "https://cdn.tgdd.vn/Products/Images/42/250728/iphone-13-pro-max-xanh-la-thumb-600x600.jpg",
+      "status": "Cần thuê",
+      "id": 4
+    },
+    {
+      "name": "Cho thuê căn hộ 23",
+      "seller": "Công ty",
+      "postDate": "2022-05-20",
+      "category": {
+        "id": 2,
+        "categoryName": "Căn hộ"
+      },
+      "address": "Da Nang",
+      "area": "30",
+      "price": "100",
+      "articleType": "Cần bán",
+      "direction": "Tây",
+      "content": "Thì ra mùa xuân hoa nở là vì em <3",
+      "imageUrl": "https://cdn.tgdd.vn/Products/Images/42/250728/iphone-13-pro-max-xanh-la-thumb-600x600.jpg",
+      "status": "Đang rao",
+      "id": 5
+    },
+    {
+      "name": "aaaaaaaaaaaaaa",
+      "seller": "Công ty",
+      "postDate": "2022-05-20",
+      "category": {
+        "id": 2,
+        "categoryName": "Căn hộ"
+      },
+      "address": "ssssssssssssssss",
+      "area": "1111",
+      "price": "11",
+      "articleType": "Cho thuê",
+      "direction": "Đông",
+      "content": "1111111",
+      "imageUrl": "https://phuckhangmobile.com/file/iphone-6-plus-bac-900-19515f.jpg",
+      "status": "Đang rao1111111111111111111111111111111111111111ư1w1w1w1w1w1w1w1w1w1w1w1w1w1w",
+      "id": 6
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "categoryName": "Nhà đất"
+    },
+    {
+      "id": 2,
+      "categoryName": "Căn hộ"
+    },
+    {
+      "id": 3,
+      "categoryName": "Chung cư"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+<div class=" col-4 mx-auto">
+  <form [formGroup]="articleEditForm" (ngSubmit)="submit(successBtn, errorBtn)">
+    <div class="modal-header">
+      <h5 class="modal-title">Thêm mới bài viết</h5>
+    </div>
+    <div class="modal-body">
+      <div class="mb-3">
+        <label for="name" class="form-label">Tên bài viết<span class="text-danger">(*)</span></label>
+        <input type="text" class="form-control" id="name" formControlName="name">
+        <div *ngIf="name?.touched">
+          <small class="text-danger" *ngIf="name?.errors?.required">Tên bài viết không được để trống.</small>
+        </div>
+        <div *ngIf="name.valid">
+          <small class="text-success">Hợp lệ.</small>
+        </div>
+      </div>
+
+      <label class="form-label" for="patient">Danh mục</label>
+      <div class="mb-4">
+        <select id="patient" class="form-control" formControlName="categoryDTO" [compareWith]="compare">
+          <option *ngFor="let category of categoryList" [ngValue]="category" >{{category.categoryName}}</option>
+        </select>
+        <div *ngIf="categoryDTO?.touched">
+          <small class="text-danger" *ngIf="categoryDTO?.errors?.required">Tên danh mục không được để trống.</small>
+        </div>
+        <div *ngIf="categoryDTO.valid && categoryDTO?.touched">
+          <small class="text-success">Hợp lệ.</small>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label for="seller" class="form-label">Bạn là<span class="text-danger">(*)</span></label>
+        <select id="seller" class="form-control" formControlName="seller">
+          <option value="Cá nhân" >Cá nhân</option>
+          <option value="Công ty" >Công ty</option>
+        </select>
+      </div>
+
+      <label class="form-label" for="patient">Bạn đăng tin</label>
+      <div class="mb-4">
+        <select id="articleType" class="form-control" formControlName="articleType">
+          <option value="Cần bán" >Cần bán</option>
+          <option value="Cần mua" >Cần mua</option>
+          <option value="Cho thuê" >Cho thuê</option>
+          <option value="Cần thuê" >Cần thuê</option>
+        </select>
+        <div *ngIf="articleType?.touched">
+          <small class="text-danger" *ngIf="articleType?.errors?.required">Loại bài viết không được để trống.</small>
+        </div>
+        <div *ngIf="articleType.valid && articleType?.touched">
+          <small class="text-success">Hợp lệ.</small>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label for="area" class="form-label">Diện tích<span class="text-danger">(*)</span></label>
+        <input type="text" class="form-control" id="area" formControlName="area">
+        <div *ngIf="area?.touched">
+          <small class="text-danger" *ngIf="area?.errors?.required">Diện tích không được để trống.</small>
+          <small class="text-danger" *ngIf="area?.errors?.pattern">Diện tích phải lớn hơn 20m2.</small>
+        </div>
+        <div *ngIf="area.valid">
+          <small class="text-success">Hợp lệ.</small>
+        </div>
+      </div>
+
+      <label class="form-label" for="direction">Hướng</label>
+      <div class="mb-4">
+        <select id="direction" class="form-control" formControlName="direction">
+          <option value="Đông" >Đông</option>
+          <option value="Tây" >Tây</option>
+          <option value="Nam" >Nam</option>
+          <option value="Bắc" >Bắc</option>
+        </select>
+        <div *ngIf="direction?.touched">
+          <small class="text-danger" *ngIf="direction?.errors?.required">Hướng không được để trống.</small>
+        </div>
+        <div *ngIf="direction.valid && direction?.touched">
+          <small class="text-success">Hợp lệ.</small>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label for="content" class="form-label">Nội dung<span class="text-danger">(*)</span></label>
+        <input type="text" class="form-control" id="content" formControlName="content">
+        <div *ngIf="content?.touched">
+          <small class="text-danger" *ngIf="content?.errors?.required">Nội dung không được để trống.</small>
+        </div>
+        <div *ngIf="content.valid">
+          <small class="text-success">Hợp lệ.</small>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label for="price" class="form-label">Giá<span class="text-danger">(*)</span></label>
+        <input type="text" class="form-control" id="price" formControlName="price">
+        <div *ngIf="price?.touched">
+          <small class="text-danger" *ngIf="price?.errors?.required">Giá không được để trống.</small>
+          <small class="text-danger" *ngIf="price?.errors?.pattern">Giá phải là số dương và lớn hơn 100.000.000 VND.</small>
+        </div>
+        <div *ngIf="price.valid">
+          <small class="text-success">Hợp lệ.</small>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label for="address" class="form-label">Địa chỉ<span class="text-danger">(*)</span></label>
+        <input type="text" class="form-control" id="address" formControlName="address">
+        <div *ngIf="address?.touched">
+          <small class="text-danger" *ngIf="address?.errors?.required">Địa chỉ không được để trống.</small>
+        </div>
+        <div *ngIf="address.valid">
+          <small class="text-success">Hợp lệ.</small>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label for="imageUrl" class="form-label">Hình ảnh<span class="text-danger">(*)</span></label>
+        <input type="text" class="form-control" id="imageUrl" formControlName="imageUrl">
+        <div *ngIf="imageUrl?.touched">
+          <small class="text-danger" *ngIf="content?.errors?.required">Hình ảnh không được để trống.</small>
+        </div>
+        <div *ngIf="imageUrl.valid">
+          <small class="text-success">Hợp lệ.</small>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label for="status" class="form-label">Trạng thái<span class="text-danger">(*)</span></label>
+        <input type="text" class="form-control" id="status" formControlName="status">
+        <div *ngIf="status?.touched">
+          <small class="text-danger" *ngIf="status?.errors?.required">Trạng thái không được để trống.</small>
+        </div>
+        <div *ngIf="status.valid">
+          <small class="text-success">Hợp lệ.</small>
+        </div>
+      </div>
+
+    </div>
+    <div class="modal-footer">
+      <input [disabled]="!articleEditForm.valid" type="submit" class="btn btn-primary" value="Cập nhật">
+    </div>
+  </form>
+</div>
+
+<div class="p-5"></div>
+<button [hidden]="true" #successBtn data-mdb-toggle="modal" data-mdb-target="#successModal"></button>
+<!--success modal-->
+<div id="successModal" class="modal fade">
+  <div class="modal-dialog modal-confirm modal-confirm-success">
+    <div class="modal-content">
+      <div class="modal-header modal-header-success justify-content-center">
+        <div class="icon-box">
+          <i class="material-icons">&#xE876;</i>
+        </div>
+        <button type="button" class="close" data-mdb-dismiss="modal" aria-hidden="true">&times;</button>
+      </div>
+      <div class="modal-body text-center">
+        <h4>Tuyệt!</h4>
+        <p>Tạo mới bài viết thành công.</p>
+        <button type="button" class="btn btn-danger" id="delete_btn" data-mdb-dismiss="modal" [routerLink]="['/article']" >Đồng ý</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<button [hidden]="true" #errorBtn data-mdb-toggle="modal" data-mdb-target="#errorModal"></button>
+<!--error modal-->
+<div id="errorModal" class="modal fade">
+  <div class="modal-dialog modal-confirm modal-confirm-danger">
+    <div class="modal-content">
+      <div class="modal-header modal-header-danger justify-content-center">
+        <div class="icon-box">
+          <i class="material-icons">&#xE5CD;</i>
+        </div>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+      </div>
+      <div class="modal-body text-center">
+        <h4>Ooops!</h4>
+        <p>Cần phải nhập đầy đủ thông tin.</p>
+        <button class="btn btn-success" data-mdb-dismiss="modal">Try Again</button>
+      </div>
+    </div>
+  </div>
+</div>

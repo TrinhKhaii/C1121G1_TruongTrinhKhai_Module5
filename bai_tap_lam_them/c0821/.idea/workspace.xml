@@ -2,20 +2,88 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2dd67ad-8f5c-43d4-b825-25f9c912e022" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../ss2_typescript/bai_tap/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss2_typescript/bai_tap/src/hihi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss2_typescript/bai_tap/src/hihi.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/src/app/article/article-create/article-create.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/src/app/article/article-create/article-create.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/src/app/article/article-create/article-create.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/src/app/article/article-edit/article-edit.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/src/app/article/article-edit/article-edit.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/src/app/article/article-edit/article-edit.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/src/app/article/article-list/article-list.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/src/app/article/article-list/article-list.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/src/app/article/article-list/article-list.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/src/app/article/article-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/src/app/article/article.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/src/app/article/article.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/src/app/article/article.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/src/app/article/article.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/src/app/data/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/src/app/model/article.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/src/app/model/category.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/src/app/service/article.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/src/app/service/category.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi-thuc-hanh/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh_api/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh_api/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh_api/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh_api/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh_api/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh_api/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh_api/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh_api/src/main/java/thi_thuc_hanh_api/ThiThucHanhApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh_api/src/main/java/thi_thuc_hanh_api/controller/ArticleRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh_api/src/main/java/thi_thuc_hanh_api/controller/CategoryRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh_api/src/main/java/thi_thuc_hanh_api/dto/ArticleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh_api/src/main/java/thi_thuc_hanh_api/dto/CategoryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh_api/src/main/java/thi_thuc_hanh_api/model/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh_api/src/main/java/thi_thuc_hanh_api/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh_api/src/main/java/thi_thuc_hanh_api/repository/IArticleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh_api/src/main/java/thi_thuc_hanh_api/repository/ICategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh_api/src/main/java/thi_thuc_hanh_api/service/IArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh_api/src/main/java/thi_thuc_hanh_api/service/ICategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh_api/src/main/java/thi_thuc_hanh_api/service/IGeneralService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh_api/src/main/java/thi_thuc_hanh_api/service/impl/ArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh_api/src/main/java/thi_thuc_hanh_api/service/impl/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh_api/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh_api/src/test/java/thi_thuc_hanh_api/ThiThucHanhApiApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../c1021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../c1021/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c1021/src/app/book/book-create/book-create.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../c1021/src/app/book/book-create/book-create.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c1021/src/app/book/book-create/book-create.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../c1021/src/app/book/book-create/book-create.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c1021/src/app/book/book-list/book-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../c1021/src/app/book/book-list/book-list.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c1021/src/app/book/book-list/book-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../c1021/src/app/book/book-list/book-list.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../c1021/src/app/data/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/../c1021/src/app/data/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c1021/src/app/library-card/library-card-create/library-card-create.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../c1021/src/app/library-card/library-card-create/library-card-create.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c1021/src/app/library-card/library-card-create/library-card-create.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../c1021/src/app/library-card/library-card-create/library-card-create.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c1021/src/app/library-card/library-card-list/library-card-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../c1021/src/app/library-card/library-card-list/library-card-list.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c1021/src/app/library-card/library-card-list/library-card-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../c1021/src/app/library-card/library-card-list/library-card-list.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c1021/src/app/service/book.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../c1021/src/app/service/book.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c1021/src/app/service/library-card.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../c1021/src/app/service/library-card.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../case_study/furama-ng-fe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/furama-ng-fe/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss2_typescript/bai_tap/src/fibonacci.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss2_typescript/bai_tap/src/fibonacci.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss2_typescript/bai_tap/src/fibonacci.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss2_typescript/bai_tap/src/fibonacci.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss2_typescript/bai_tap/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss2_typescript/bai_tap/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +115,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -103,7 +173,11 @@
       <option name="presentableId" value="Default" />
       <updated>1652775695654</updated>
       <workItem from="1652775696798" duration="7559000" />
-      <workItem from="1652805151799" duration="32234000" />
+      <workItem from="1652805151799" duration="41509000" />
+      <workItem from="1653008947724" duration="342000" />
+      <workItem from="1653009319348" duration="6573000" />
+      <workItem from="1653029058367" duration="2511000" />
+      <workItem from="1653130069630" duration="4468000" />
     </task>
     <servers />
   </component>
